@@ -1,0 +1,246 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Contact - Tatiana Ozhgibesova{% endblock %}
+
+{% block content %}
+<div class="contact-container">
+    <div class="contact-content">
+        <!-- Contact Information -->
+        <div class="about-section">
+            <h2 class="about-title">Contact Information</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h5 class="skill-category-title">
+                        <i class="fas fa-envelope me-2 text-primary"></i>Email
+                    </h5>
+                    <ul class="skill-list">
+                        <li class="skill-item">tatiana.ozhgibesova@email.com</li>
+                        <li class="skill-item">Primary contact method</li>
+                        <li class="skill-item">Response within 24 hours</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h5 class="skill-category-title">
+                        <i class="fab fa-linkedin me-2 text-primary"></i>LinkedIn
+                    </h5>
+                    <ul class="skill-list">
+                        <li class="skill-item">
+                            <a href="https://www.linkedin.com/in/tatiana-ozhgibesova" target="_blank"
+                                class="contact-link">
+                                linkedin.com/in/tatiana-ozhgibesova
+                            </a>
+                        </li>
+                        <li class="skill-item">Professional network</li>
+                        <li class="skill-item">Connect for collaborations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Professional Interests -->
+        <div class="about-section">
+            <h2 class="about-title">Professional Interests</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h5 class="skill-category-title">Research Areas</h5>
+                    <ul class="skill-list">
+                        <li class="skill-item">Healthcare technology</li>
+                        <li class="skill-item">Data science applications</li>
+                        <li class="skill-item">Medical research</li>
+                        <li class="skill-item">Digital health innovation</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h5 class="skill-category-title">Collaboration Types</h5>
+                    <ul class="skill-list">
+                        <li class="skill-item">Academic research</li>
+                        <li class="skill-item">Industry partnerships</li>
+                        <li class="skill-item">Startup projects</li>
+                        <li class="skill-item">Consulting work</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h5 class="skill-category-title">Project Focus</h5>
+                    <ul class="skill-list">
+                        <li class="skill-item">Clinical data analysis</li>
+                        <li class="skill-item">Healthcare platforms</li>
+                        <li class="skill-item">Machine learning models</li>
+                        <li class="skill-item">Research methodology</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Form
+        <div class="about-section">
+            <h2 class="about-title">Get In Touch</h2>
+            <p class="about-text">
+                I'm always interested in discussing new opportunities, research collaborations, or innovative projects
+                in healthcare technology and data science. Feel free to reach out via email or LinkedIn if you'd like to
+                connect.
+            </p>
+
+            <div class="contact-form">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="your.email@example.com">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Subject</label>
+                    <input type="text" class="form-control" placeholder="Project or collaboration topic">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Message</label>
+                    <textarea class="form-control" rows="4"
+                        placeholder="Tell me about your project or how we can collaborate..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- Response Information -->
+        <div class="about-section">
+            <h2 class="about-title">What to Expect</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h5 class="skill-category-title">Response Time</h5>
+                    <ul class="skill-list">
+                        <li class="skill-item">Initial response: 24 hours</li>
+                        <li class="skill-item">Detailed reply: 2-3 days</li>
+                        <li class="skill-item">Weekend responses available</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h5 class="skill-category-title">Communication Style</h5>
+                    <ul class="skill-list">
+                        <li class="skill-item">Professional & friendly</li>
+                        <li class="skill-item">Detailed & thorough</li>
+                        <li class="skill-item">Multilingual support</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h5 class="skill-category-title">Next Steps</h5>
+                    <ul class="skill-list">
+                        <li class="skill-item">Initial discussion</li>
+                        <li class="skill-item">Project assessment</li>
+                        <li class="skill-item">Proposal development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    /* Contact Info Cards */
+    .contact-info-card,
+    .contact-form-card {
+        transition: all 0.3s ease;
+        border: 1px solid #e9ecef;
+    }
+
+    .contact-info-card:hover,
+    .contact-form-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        border-color: var(--primary-color);
+    }
+
+    /* Contact Items */
+    .contact-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        background: var(--gray-50);
+        border-radius: var(--radius-md);
+        border: 1px solid var(--gray-200);
+        transition: all 0.3s ease;
+    }
+
+    .contact-item:hover {
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-md);
+        border-color: var(--primary-color);
+    }
+
+    .contact-item-icon {
+        width: 50px;
+        height: 50px;
+        background: var(--primary-color);
+        color: var(--white);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.25rem;
+        margin-right: 1rem;
+        flex-shrink: 0;
+    }
+
+    .contact-item-content {
+        flex: 1;
+    }
+
+    .contact-item-title {
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: var(--gray-900);
+        margin-bottom: 0.25rem;
+    }
+
+    .contact-item-text {
+        font-size: 0.95rem;
+        color: var(--gray-600);
+        margin-bottom: 0;
+    }
+
+    .contact-link {
+        color: var(--primary-color);
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .contact-link:hover {
+        color: var(--primary-dark);
+        text-decoration: underline;
+    }
+
+    /* Form Enhancements */
+    .form-control:focus {
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.25);
+    }
+
+    .btn-primary {
+        background: var(--primary-color);
+        border-color: var(--primary-color);
+        transition: all 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background: var(--primary-dark);
+        border-color: var(--primary-dark);
+        transform: translateY(-1px);
+        box-shadow: var(--shadow-md);
+    }
+</style>
+{% endblock %}

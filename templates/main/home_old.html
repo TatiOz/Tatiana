@@ -1,0 +1,116 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Tatiana Ozhgibesova - Home{% endblock %}
+
+{% block content %}
+<div class="hero-section">
+    <div class="hero-content">
+        <div class="row align-items-center">
+            <!-- Profile Section -->
+            <div class="col-lg-4 col-md-5">
+                <div class="profile-section hover-lift">
+                    <div class="text-center">
+                        <img src="{% static 'images/main_page.png' %}" alt="Tatiana Ozhgibesova" class="profile-image">
+                        <h2 class="profile-name gradient-text">Tatiana Ozhgibesova</h2>
+                        <p class="profile-title">Medical Doctor & Data Scientist</p>
+                        <p class="profile-description">
+                            Bridging medicine and technology through innovative research and data-driven healthcare
+                            solutions.
+                        </p>
+                        <div class="mt-3">
+                            <span class="badge bg-primary me-2">Healthcare</span>
+                            <span class="badge bg-secondary me-2">Data Science</span>
+                            <span class="badge bg-info">Research</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content Section -->
+            <div class="col-lg-8 col-md-7">
+                <div class="hero-title">
+                    <span class="gradient-text">Welcome to My Portfolio</span>
+                </div>
+                <div class="hero-subtitle">
+                    <i class="fas fa-user-md me-2"></i>Medical Professional
+                    <i class="fas fa-microscope ms-3 me-2"></i>Research Enthusiast
+                    <i class="fas fa-chart-line ms-3 me-2"></i>Data Scientist
+                </div>
+                <div class="hero-description">
+                    I am a Medical Doctor with a Master's degree in Data Science, passionate about leveraging technology
+                    to improve healthcare outcomes. My journey combines clinical expertise with analytical skills to
+                    create innovative solutions in medical research and patient care.
+                </div>
+
+                <!-- Quick Info Grid -->
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="compact-section">
+                            <h4 class="compact-title">
+                                <i class="fas fa-graduation-cap me-2 text-primary"></i>Education
+                            </h4>
+                            <div class="compact-text">
+                                <i class="fas fa-check-circle me-2 text-success"></i>Master's in Data Science
+                            </div>
+                            <div class="compact-text">
+                                <i class="fas fa-check-circle me-2 text-success"></i>Medical Degree
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="compact-section">
+                            <h4 class="compact-title">
+                                <i class="fas fa-briefcase me-2 text-primary"></i>Experience
+                            </h4>
+                            <div class="compact-text">
+                                <i class="fas fa-stethoscope me-2 text-info"></i>Clinical Practice
+                            </div>
+                            <div class="compact-text">
+                                <i class="fas fa-flask me-2 text-info"></i>Research & Analysis
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills Preview -->
+                <div class="compact-section mt-4">
+                    <h4 class="compact-title">
+                        <i class="fas fa-star me-2 text-warning"></i>Key Skills
+                    </h4>
+                    <div class="compact-grid">
+                        <div class="compact-card hover-lift">
+                            <div class="compact-card-title">
+                                <i class="fas fa-heartbeat me-2 text-danger"></i>Medical Research
+                            </div>
+                            <div class="compact-card-text">Clinical studies, data analysis</div>
+                        </div>
+                        <div class="compact-card hover-lift">
+                            <div class="compact-card-title">
+                                <i class="fas fa-code me-2 text-primary"></i>Data Science
+                            </div>
+                            <div class="compact-card-text">Python, ML, Statistics</div>
+                        </div>
+                        <div class="compact-card hover-lift">
+                            <div class="compact-card-title">
+                                <i class="fas fa-laptop-medical me-2 text-success"></i>Healthcare Tech
+                            </div>
+                            <div class="compact-card-text">Digital health solutions</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Call to Action -->
+                <div class="text-center mt-4">
+                    <a href="{% url 'main:about' %}" class="btn btn-primary btn-lg me-3">
+                        <i class="fas fa-user me-2"></i>Learn More About Me
+                    </a>
+                    <a href="{% url 'main:contact' %}" class="btn btn-outline-light btn-lg">
+                        <i class="fas fa-envelope me-2"></i>Get In Touch
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
