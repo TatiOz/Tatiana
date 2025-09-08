@@ -547,6 +547,7 @@ a:hover {
     border-left: 4px solid var(--primary-color);
     border: 1px solid var(--gray-200);
     transition: all 0.3s ease;
+    margin-bottom: 20px;
 }
 
 .skill-category:hover {
