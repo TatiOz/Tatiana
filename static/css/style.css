@@ -152,29 +152,150 @@ a:hover {
 
 
 /* ===== NAVIGATION ===== */
-/* Navigation */
 .navbar {
-    background-color: var(--white) !important;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 1rem 0;
+    background: #ffffff;
+    backdrop-filter: blur(20px);
+    box-shadow: var(--shadow-lg);
+    padding: var(--space-sm) 0;
+    height: 80px;
+    z-index: 1030;
+    border-bottom: 1px solid var(--gray-200);
+}
+
+/* Mobile navbar button */
+.navbar .navbar-toggler {
+    border: 1px solid var(--gray-300);
+    padding: 0.5rem 0.75rem;
+    border-radius: var(--radius-md);
+}
+
+/* Hamburger icon */
+.navbar .navbar-toggler-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(31,41,55,0.95)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-size: 100% 100%;
+}
+
+/* Remove Bootstrap collapse animation */
+.navbar-collapse.collapsing {
+    height: auto !important;
+    transition: none !important;
+} */
+
+/* When menu is expanded */
+.navbar .navbar-collapse.show {
+    background: #ffffff;
+    border-top: 1px solid var(--gray-200);
+    padding: 0.5rem 0.75rem;
+    box-shadow: var(--shadow-lg);
+}
+
+/* Mobile dropdown style */
+@media (max-width: 991.98px) {
+    .navbar .nav-link {
+        display: block;
+        padding: 0.75rem 1rem;
+        font-size: 1.1rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar .nav-link:hover {
+        background-color: var(--gray-100);
+    }
+}
+
+/* Branding */
+.navbar.navbar-light .navbar-brand {
+    color: var(--gray-900) !important;
 }
 
 .navbar-brand {
-    font-weight: bold;
-    font-size: 1.5rem;
+    font-family: var(--font-secondary);
+    font-weight: 700;
     color: var(--primary-color) !important;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    transition: color 0.2s ease;
 }
 
-.nav-link {
+.navbar-brand:hover {
+    color: var(--primary-dark) !important;
+}
+
+/* Links */
+.navbar .nav-link {
     color: var(--gray-700) !important;
     font-weight: 500;
-    margin: 0 0.5rem;
-    transition: color 0.3s ease;
+    margin: 0 var(--space-xs);
+    transition: all 0.2s ease;
+    position: relative;
+    padding: var(--space-xs) var(--space-sm) !important;
+    border-radius: var(--radius-md);
 }
 
-.nav-link:hover {
+.navbar .nav-link:hover {
     color: var(--primary-color) !important;
+    background-color: var(--gray-100);
 }
+
+.navbar .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: var(--primary-color);
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.navbar .nav-link:hover::after {
+    width: 80%;
+}
+
+/* Убираем анимацию Bootstrap collapse */
+.navbar-collapse.collapsing {
+    height: auto !important;
+    overflow: visible !important;
+    transition: none !important;
+}
+
+/* Сразу показываем раскрытое меню без "мигания" */
+.navbar-collapse.show {
+    height: auto !important;
+    overflow: visible !important;
+    transition: none !important;
+}
+
+/* Mobile drawer стиль — меню справа */
+@media (max-width: 991.98px) {
+    .navbar .navbar-collapse {
+        position: fixed !important;
+        top: 0 !important;
+        right: 0 !important;
+        left: auto !important;
+        height: 100vh !important;
+        width: 80%;
+        max-width: 360px;
+        background: #ffffff;
+        padding: 4.5rem 1rem 1rem;
+        box-shadow: -12px 0 24px rgba(0, 0, 0, 0.15);
+        border-left: 1px solid var(--gray-200);
+        z-index: 1050;
+        border-radius: 0;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
 
 
 /* ===== HERO SECTION ===== */
