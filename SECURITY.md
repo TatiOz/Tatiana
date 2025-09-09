@@ -71,7 +71,7 @@ Create a `.env` file with production values:
 python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
 
 # Production settings
-SECRET_KEY=your-generated-secret-key
+SECRET_KEY=''
 DEBUG=False
 ALLOWED_HOSTS=yourdomain.com,www.yourdomain.com
 SECURE_SSL_REDIRECT=True

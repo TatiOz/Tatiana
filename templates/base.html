@@ -7,8 +7,9 @@
     <title>{% block title %}Personal Website{% endblock %}</title>
     <meta name="description"
         content="{% block meta_description %}Personal site of Tatiana Ozhgibesova: neurology, neuroscience, research, and projects.{% endblock %}">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; style-src 'self' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' https://cdn.jsdelivr.net; img-src 'self' data:;">
 
-    <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Font Awesome Icons -->
@@ -22,6 +23,8 @@
     <!-- Custom CSS -->
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <link rel="icon" href="{% static 'other_files/logo.png' %}" type="image/png">
 
     {% block extra_css %}{% endblock %}
 </head>
@@ -94,7 +97,7 @@
 
     <!-- Bootstrap 5 JS (minimal for navbar functionality only) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
+    <!-- <script>
         // Auto-close mobile menu when a nav link is tapped
         document.addEventListener('click', function (event) {
             var link = event.target.closest('#navbarNav .nav-link');
@@ -104,7 +107,7 @@
             var bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse) || new bootstrap.Collapse(navbarCollapse, { toggle: false });
             bsCollapse.hide();
         });
-    </script>
+    </script> -->
 
     <!-- Custom JavaScript for Modern Design Enhancements -->
     {% load static %}
