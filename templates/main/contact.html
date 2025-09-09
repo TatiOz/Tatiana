@@ -7,7 +7,7 @@
 <div class="contact-container">
     <div class="contact-content">
         <!-- Contact Information -->
-        <div class="about-section"> 
+        <div class="about-section">
             <h2 class="about-title">Contact Information</h2>
             <div class="skills-grid">
                 <div class="skill-category">
@@ -44,7 +44,7 @@
 
 
         <!-- Professional Interests -->
-<!-- Professional Interests --> 
+        <!-- Professional Interests -->
         <div class="about-section">
             <h2 class="about-title">Professional Interests</h2>
             <div class="skills-grid">
@@ -78,101 +78,121 @@
             </div>
         </div>
 
-{% endblock %}
+        {% endblock %}
 
-{% block extra_css %}
-<style>
-    /* Contact Info Cards */
-    .contact-info-card,
-    .contact-form-card {
-        transition: all 0.3s ease;
-        border: 1px solid #e9ecef;
-    }
+        {% block extra_css %}
+        <style>
+            /* Contact Info Cards */
+            .contact-info-card,
+            .contact-form-card {
+                transition: all 0.3s ease;
+                border: 1px solid #e9ecef;
+            }
 
-    .contact-info-card:hover,
-    .contact-form-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-        border-color: var(--primary-color);
-    }
+            .contact-info-card:hover,
+            .contact-form-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+                border-color: var(--primary-color);
+            }
 
-    /* Contact Items */
-    .contact-item {
-        display: flex;
-        align-items: center;
-        margin-bottom: 1rem;
-        padding: 1rem;
-        background: var(--gray-50);
-        border-radius: var(--radius-md);
-        border: 1px solid var(--gray-200);
-        transition: all 0.3s ease;
-    }
+            /* Contact Items */
+            .contact-item {
+                display: flex;
+                align-items: center;
+                margin-bottom: 1rem;
+                padding: 1rem;
+                background: var(--gray-50);
+                border-radius: var(--radius-md);
+                border: 1px solid var(--gray-200);
+                transition: all 0.3s ease;
+            }
 
-    .contact-item:hover {
-        transform: translateY(-2px);
-        box-shadow: var(--shadow-md);
-        border-color: var(--primary-color);
-    }
+            .contact-item:hover {
+                transform: translateY(-2px);
+                box-shadow: var(--shadow-md);
+                border-color: var(--primary-color);
+            }
 
-    .contact-item-icon {
-        width: 50px;
-        height: 50px;
-        background: var(--primary-color);
-        color: var(--white);
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.25rem;
-        margin-right: 1rem;
-        flex-shrink: 0;
-    }
+            .contact-item-icon {
+                width: 50px;
+                height: 50px;
+                background: var(--primary-color);
+                color: var(--white);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.25rem;
+                margin-right: 1rem;
+                flex-shrink: 0;
+            }
 
-    .contact-item-content {
-        flex: 1;
-    }
+            .contact-item-content {
+                flex: 1;
+            }
 
-    .contact-item-title {
-        font-size: 1.125rem;
-        font-weight: 600;
-        color: var(--gray-900);
-        margin-bottom: 0.25rem;
-    }
+            .contact-item-title {
+                font-size: 1.125rem;
+                font-weight: 600;
+                color: var(--gray-900);
+                margin-bottom: 0.25rem;
+            }
 
-    .contact-item-text {
-        font-size: 0.95rem;
-        color: var(--gray-600);
-        margin-bottom: 0;
-    }
+            .contact-item-text {
+                font-size: 0.95rem;
+                color: var(--gray-600);
+                margin-bottom: 0;
+            }
 
-    .contact-link {
-        color: var(--primary-color);
-        text-decoration: none;
-        transition: color 0.3s ease;
-    }
+            .contact-link {
+                color: var(--primary-color);
+                text-decoration: none;
+                transition: color 0.3s ease;
+            }
 
-    .contact-link:hover {
-        color: var(--primary-dark);
-        text-decoration: underline;
-    }
+            .contact-link:hover {
+                color: var(--primary-dark);
+                text-decoration: underline;
+            }
 
-    /* Form Enhancements */
-    .form-control:focus {
-        border-color: var(--primary-color);
-        box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.25);
-    }
+            /* Form Enhancements */
+            .form-control:focus {
+                border-color: var(--primary-color);
+                box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.25);
+            }
 
-    .btn-primary {
-        background: var(--primary-color);
-        border-color: var(--primary-color);
-        transition: all 0.3s ease;
-    }
+            .btn-primary {
+                background: var(--primary-color);
+                border-color: var(--primary-color);
+                transition: all 0.3s ease;
+            }
 
-    .btn-primary:hover {
-        background: var(--primary-dark);
-        border-color: var(--primary-dark);
-        transform: translateY(-1px);
-        box-shadow: var(--shadow-md);
-    }
-</style>
-{% endblock %}
+            .btn-primary:hover {
+                background: var(--primary-dark);
+                border-color: var(--primary-dark);
+                transform: translateY(-1px);
+                box-shadow: var(--shadow-md);
+            }
+        </style>
+        {% endblock %}
+
+        {% block extra_js %}
+        <script>
+            // Add honeypot input on page load (hidden from users)
+            document.addEventListener('DOMContentLoaded', function () {
+                const forms = document.querySelectorAll('form');
+                forms.forEach(function (f) {
+                    if (!f.querySelector('input[name="website"]')) {
+                        const hp = document.createElement('input');
+                        hp.type = 'text';
+                        hp.name = 'website';
+                        hp.style.display = 'none';
+                        hp.tabIndex = -1;
+                        hp.autocomplete = 'off';
+                        f.appendChild(hp);
+                    }
+                });
+            });
+        </script>
+        {% endblock %}

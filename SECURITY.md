@@ -242,3 +242,5 @@ tar -czf backup_$(date +%Y%m%d_%H%M%S).tar.gz media/ staticfiles/
 - [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 - [Mozilla Security Guidelines](https://infosec.mozilla.org/guidelines/)
 - [Django Security Checklist](https://docs.djangoproject.com/en/stable/howto/deployment/checklist/)
+
+

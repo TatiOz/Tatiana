@@ -10,3 +10,5 @@ if __name__ == "__main__":
     print(secret_key)
     print("\nAdd this to your .env file:")
     print(f"SECRET_KEY={secret_key}")
+
+

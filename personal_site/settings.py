@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
+from datetime import timedelta
 import os
 from decouple import config
 
@@ -28,6 +29,7 @@ SECRET_KEY = config('SECRET_KEY', default='django-insecure-9-!z88jt43ou4*c-w%#wz
 DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='localhost,127.0.0.1', cast=lambda v: [s.strip() for s in v.split(',')])
+ADMIN_ALLOWED_IPS = config('ADMIN_ALLOWED_IPS', default='')
 
 # Security Settings
 SECURE_BROWSER_XSS_FILTER = True
@@ -50,6 +52,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'axes',
     'main',
     'crispy_forms',
     'crispy_bootstrap5',
@@ -60,6 +63,8 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',  # For static files
     'main.security.SecurityMiddleware',  # Custom security middleware
     'main.security.RateLimitMiddleware',  # Rate limiting
+    'axes.middleware.AxesMiddleware',
+    'main.security.AdminRestrictMiddleware',  # Admin IP restriction
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -147,7 +152,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATICFILES_DIRS = [
     BASE_DIR / 'static',
@@ -216,3 +221,12 @@ LOGGING = {
 
 # Create logs directory if it doesn't exist
 os.makedirs(BASE_DIR / 'logs', exist_ok=True)
+
+# django-axes settings (login protection)
+AXES_ENABLED = True
+AXES_ONLY_USER_FAILURES = True
+AXES_FAILURE_LIMIT = 5
+AXES_COOLOFF_TIME = timedelta(hours=1)
+AXES_LOCKOUT_PARAMETERS = []
+AXES_RESET_ON_SUCCESS = True
+AXES_LOCKOUT_CALLABLE = None

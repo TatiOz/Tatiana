@@ -5,6 +5,12 @@ from django.core.mail import send_mail
 from django.conf import settings
 from .models import About, Skill, Project, Contact, SocialLink
 from .forms import ContactForm
+from django.http import HttpResponseForbidden
+try:
+    # Prefer modern import path
+    from django_ratelimit.decorators import ratelimit
+except Exception:  # Fallback if installed under legacy name
+    from ratelimit.decorators import ratelimit  # type: ignore
 
 def home(request):
     """Home page view"""
@@ -291,9 +297,13 @@ def skills(request):
     }
     return render(request, 'main/skills.html', context)
 
+@ratelimit(key='ip', rate='5/m', method=['POST'], block=True)
 def contact(request):
     """Contact page view"""
     if request.method == 'POST':
+        # Honeypot field check to trap bots
+        if request.POST.get('website'):
+            return HttpResponseForbidden("Bot detected")
         form = ContactForm(request.POST)
         if form.is_valid():
             contact = form.save()
@@ -356,3 +366,74 @@ def contact(request):
         'social_links': social_links,
     }
     return render(request, 'main/contact.html', context)
+
+def privacy(request):
+    """Privacy Policy page"""
+    try:
+        social_links = SocialLink.objects.filter(active=True)
+    except:
+        social_links = []
+    if not social_links:
+        social_links = [
+            type('SocialLink', (), {
+                'name': 'Email',
+                'url': 'mailto:tatiana.ozhgibesova@email.com',
+                'icon': 'fas fa-envelope',
+                'active': True
+            })(),
+            type('SocialLink', (), {
+                'name': 'LinkedIn',
+                'url': 'https://www.linkedin.com/in/tatiana-ozhgibesova',
+                'icon': 'fab fa-linkedin',
+                'active': True
+            })()
+        ]
+    return render(request, 'main/privacy.html', { 'social_links': social_links })
+
+def impressum(request):
+    """Impressum (Legal Notice) page"""
+    try:
+        social_links = SocialLink.objects.filter(active=True)
+    except:
+        social_links = []
+    if not social_links:
+        social_links = [
+            type('SocialLink', (), {
+                'name': 'Email',
+                'url': 'mailto:tatiana.ozhgibesova@email.com',
+                'icon': 'fas fa-envelope',
+                'active': True
+            })(),
+            type('SocialLink', (), {
+                'name': 'LinkedIn',
+                'url': 'https://www.linkedin.com/in/tatiana-ozhgibesova',
+                'icon': 'fab fa-linkedin',
+                'active': True
+            })()
+        ]
+    return render(request, 'main/impressum.html', { 'social_links': social_links })
+
+def cookies(request):
+    try:
+        social_links = SocialLink.objects.filter(active=True)
+    except:
+        social_links = []
+    return render(request, 'main/cookies.html', { 'social_links': social_links })
+
+def sitemap_page(request):
+    try:
+        social_links = SocialLink.objects.filter(active=True)
+    except:
+        social_links = []
+    pages = [
+        {'name': 'Home', 'url': '/'},
+        {'name': 'About', 'url': '/about/'},
+        {'name': 'Skills', 'url': '/skills/'},
+        {'name': 'Contact', 'url': '/contact/'},
+        {'name': 'Privacy Policy', 'url': '/privacy/'},
+        {'name': 'Impressum', 'url': '/impressum/'},
+        {'name': 'Cookie Settings', 'url': '/cookies/'},
+    ]
+    return render(request, 'main/sitemap.html', { 'social_links': social_links, 'pages': pages })
+
+# admin_info page removed per request

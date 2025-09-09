@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block title %}Sitemap{% endblock %}
+{% block meta_description %}Human-readable sitemap of the website pages.{% endblock %}
+{% block content %}
+<div class="container about-container">
+    <div class="about-content">
+        <h1 class="about-title">Sitemap</h1>
+        <div class="skills-grid">
+            {% for page in pages %}
+            <div class="skill-category">
+                <a class="skill-category-title" href="{{ page.url }}">{{ page.name }}</a>
+                <p class="about-text mb-0"><code>{{ page.url }}</code></p>
+            </div>
+            {% endfor %}
+        </div>
+        <p class="about-text mt-3 mb-0">
+            For search engines, the XML sitemap is available at <a href="/sitemap.xml">/sitemap.xml</a>.
+        </p>
+    </div>
+    <div class="mb-3"></div>
+
+</div>
+{% endblock %}

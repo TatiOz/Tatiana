@@ -67,11 +67,11 @@ html {
 
 body.static-site {
     font-family: var(--font-primary);
-    line-height: 1.7;
+    line-height: 1.6;
     color: var(--gray-800);
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     min-height: 100vh;
-    font-size: 16px;
+    font-size: 18px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -115,9 +115,9 @@ h6 {
 }
 
 p {
-    margin-bottom: var(--space-sm);
+    margin-bottom: 0.6rem;
     color: var(--gray-700);
-    line-height: 1.7;
+    line-height: 1.55;
 }
 
 a {
@@ -143,22 +143,94 @@ a:hover {
 }
 
 .section {
-    padding: var(--space-2xl) 0;
+    padding: var(--space-xl) 0;
 }
 
 .section-sm {
-    padding: var(--space-xl) 0;
+    padding: var(--space-lg) 0;
 }
 
 /* ===== NAVIGATION ===== */
 .navbar {
-    background: rgba(255, 255, 255, 0.95);
+    background: #ffffff;
     backdrop-filter: blur(20px);
     box-shadow: var(--shadow-lg);
     padding: var(--space-sm) 0;
     height: 80px;
     z-index: 1030;
     border-bottom: 1px solid var(--gray-200);
+}
+
+/* Mobile navbar improvements */
+.navbar .navbar-toggler {
+    border: 1px solid var(--gray-300);
+    padding: 0.5rem 0.75rem;
+    border-radius: var(--radius-md);
+}
+
+/* Ensure hamburger icon visible on light background */
+.navbar .navbar-toggler-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(31,41,55,0.95)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-size: 100% 100%;
+}
+
+/* Expanded menu backdrop and spacing */
+.navbar .navbar-collapse.show {
+    background: #ffffff;
+    backdrop-filter: blur(10px);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    padding: 0.5rem;
+}
+
+/* Solid white right-side drawer on mobile */
+@media (max-width: 991.98px) {
+    .navbar .navbar-collapse {
+        position: fixed !important;
+        top: 0 !important;
+        right: 0 !important;
+        left: auto !important;
+        height: 100vh;
+        width: 80%;
+        max-width: 360px;
+        background: #ffffff;
+        padding: 4.5rem 1rem 1rem;
+        /* space for navbar */
+        box-shadow: -12px 0 24px rgba(0, 0, 0, 0.15);
+        border-left: 1px solid var(--gray-200);
+        transform: translateX(100%) !important;
+        transition: transform 0.3s ease-in-out !important;
+        z-index: 1050;
+        border-radius: 0;
+    }
+
+    .navbar .navbar-collapse.show,
+    .navbar .navbar-collapse.collapsing {
+        transform: translateX(0) !important;
+        right: 0 !important;
+        left: auto !important;
+    }
+
+    .navbar .navbar-nav {
+        margin: 0;
+        gap: 0.25rem;
+    }
+}
+
+/* Ensure white layout consistently for light navbar */
+.navbar.navbar-light .navbar-brand {
+    color: var(--gray-900) !important;
+}
+
+.navbar.navbar-light .nav-link {
+    color: var(--gray-700) !important;
+}
+
+.navbar.navbar-light .nav-link:hover {
+    color: var(--primary-color) !important;
+    background-color: var(--gray-100);
 }
 
 .navbar-brand {
@@ -211,8 +283,8 @@ a:hover {
 .hero-section {
     background: linear-gradient(135deg, rgba(37, 99, 235, 0.95), rgba(124, 58, 237, 0.95));
     color: var(--white);
-    padding: var(--space-2xl) 0 var(--space-xl) 0;
-    min-height: calc(100vh - 100px);
+    padding: var(--space-xl) 0 var(--space-lg) 0;
+    min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -260,9 +332,9 @@ a:hover {
 
 .hero-description {
     font-size: 1.125rem;
-    margin-bottom: var(--space-xl);
+    margin-bottom: var(--space-lg);
     opacity: 0.9;
-    line-height: 1.7;
+    line-height: 1.55;
     max-width: 600px;
 }
 
@@ -270,14 +342,14 @@ a:hover {
 .profile-section {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
-    padding: var(--space-xl);
+    padding: var(--space-lg);
     border-radius: var(--radius-xl);
     box-shadow: var(--shadow-xl);
-    margin: var(--space-md) 0;
+    margin: var(--space-sm) 0;
     border: 1px solid rgba(255, 255, 255, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     height: fit-content;
-    margin-top: -2rem;
+    margin-top: -1.25rem;
     /* Move profile section higher */
     position: relative;
     z-index: 3;
@@ -325,10 +397,10 @@ a:hover {
 
 /* ===== COMPACT SECTIONS ===== */
 .compact-section {
-    margin-bottom: var(--space-lg);
+    margin-bottom: var(--space-md);
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(10px);
-    padding: var(--space-lg);
+    padding: var(--space-md);
     border-radius: var(--radius-lg);
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -354,8 +426,8 @@ a:hover {
 .compact-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: var(--space-sm);
-    margin-top: var(--space-sm);
+    gap: var(--space-xs);
+    margin-top: var(--space-xs);
 }
 
 .compact-card {
@@ -397,14 +469,14 @@ a:hover {
 .about-content {
     background: var(--white);
     border-radius: var(--radius-xl);
-    padding: var(--space-2xl);
+    padding: var(--space-xl);
     box-shadow: var(--shadow-xl);
     min-height: calc(100vh - 140px);
     border: 1px solid var(--gray-200);
 }
 
 .about-section {
-    margin-bottom: var(--space-2xl);
+    margin-bottom: var(--space-xl);
 }
 
 .about-title {
@@ -418,10 +490,10 @@ a:hover {
 }
 
 .about-text {
-    font-size: 1rem;
+    font-size: 1.05rem;
     color: var(--gray-700);
-    line-height: 1.7;
-    margin-bottom: var(--space-md);
+    line-height: 1.55;
+    margin-bottom: 0.6rem;
 }
 
 /* Hobby Image Styles */
@@ -527,7 +599,7 @@ a:hover {
 .skills-content {
     background: var(--white);
     border-radius: var(--radius-xl);
-    padding: var(--space-2xl);
+    padding: var(--space-xl);
     box-shadow: var(--shadow-xl);
     min-height: calc(100vh - 140px);
     border: 1px solid var(--gray-200);
@@ -536,18 +608,18 @@ a:hover {
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: var(--space-lg);
-    margin-top: var(--space-lg);
+    gap: var(--space-md);
+    margin-top: var(--space-md);
 }
 
 .skill-category {
     background: var(--gray-50);
-    padding: var(--space-lg);
+    padding: var(--space-md);
     border-radius: var(--radius-lg);
     border-left: 4px solid var(--primary-color);
     border: 1px solid var(--gray-200);
     transition: all 0.3s ease;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .skill-category:hover {
@@ -595,7 +667,7 @@ a:hover {
 .projects-content {
     background: var(--white);
     border-radius: var(--radius-xl);
-    padding: var(--space-2xl);
+    padding: var(--space-xl);
     box-shadow: var(--shadow-xl);
     min-height: calc(100vh - 140px);
     border: 1px solid var(--gray-200);
@@ -603,10 +675,10 @@ a:hover {
 
 .project-category {
     background: var(--gray-50);
-    padding: var(--space-lg);
+    padding: var(--space-md);
     border-radius: var(--radius-lg);
     border-left: 4px solid var(--primary-color);
-    margin-bottom: var(--space-md);
+    margin-bottom: var(--space-sm);
     border: 1px solid var(--gray-200);
     transition: all 0.3s ease;
 }
@@ -662,18 +734,18 @@ a:hover {
 .contact-content {
     background: var(--white);
     border-radius: var(--radius-xl);
-    padding: var(--space-2xl);
+    padding: var(--space-xl);
     box-shadow: var(--shadow-xl);
     min-height: calc(100vh - 140px);
     border: 1px solid var(--gray-200);
 }
 
 .contact-form {
-    margin-top: var(--space-lg);
+    margin-top: var(--space-md);
 }
 
 .form-group {
-    margin-bottom: var(--space-md);
+    margin-bottom: var(--space-sm);
 }
 
 .form-label {

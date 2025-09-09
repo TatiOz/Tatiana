@@ -44,3 +44,8 @@ class SocialLinkAdmin(admin.ModelAdmin):
     list_display = ['platform', 'url', 'order', 'active']
     list_filter = ['platform', 'active']
     ordering = ['order']
+
+# Admin site branding
+admin.site.site_header = "Tatiana Ozhgibesova — Admin"
+admin.site.site_title = "Tatiana Admin"
+admin.site.index_title = "Site administration"

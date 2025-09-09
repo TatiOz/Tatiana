@@ -4,6 +4,7 @@ Custom security middleware for additional protection
 import re
 from django.http import HttpResponseForbidden
 from django.conf import settings
+from ipaddress import ip_network, ip_address
 
 
 class SecurityMiddleware:
@@ -23,7 +24,7 @@ class SecurityMiddleware:
         response['X-Content-Type-Options'] = 'nosniff'
         response['X-Frame-Options'] = 'DENY'
         response['X-XSS-Protection'] = '1; mode=block'
-        response['Referrer-Policy'] = 'strict-origin-when-cross-origin'
+        response['Referrer-Policy'] = 'no-referrer-when-downgrade'
         response['Permissions-Policy'] = 'geolocation=(), microphone=(), camera=()'
         
         # Content Security Policy
@@ -106,3 +107,36 @@ class RateLimitMiddleware:
 
 
 import time
+
+
+class AdminRestrictMiddleware:
+    """
+    Restrict access to Django admin based on IPs listed in .env as ADMIN_ALLOWED_IPS.
+    Format: comma-separated IPs or CIDRs, e.g. "127.0.0.1, 192.168.0.0/24".
+    Returns 403 Forbidden if client IP is not allowed.
+    """
+    def __init__(self, get_response):
+        self.get_response = get_response
+        # Adjust if your admin path differs (we use /secure-panel/ in this project)
+        self.admin_path = '/secure-panel/'
+        raw = getattr(settings, 'ADMIN_ALLOWED_IPS', '') or ''
+        self.networks = []
+        for part in [p.strip() for p in raw.split(',') if p.strip()]:
+            try:
+                network = ip_network(part, strict=False)
+            except ValueError:
+                network = ip_network(part + '/32', strict=False)
+            self.networks.append(network)
+
+    def __call__(self, request):
+        if request.path.startswith(self.admin_path):
+            client_ip = (request.META.get('HTTP_X_FORWARDED_FOR', '') or '').split(',')[0].strip() or request.META.get('REMOTE_ADDR', '')
+            if self.networks:
+                try:
+                    addr = ip_address(client_ip)
+                    if not any(addr in net for net in self.networks):
+                        return HttpResponseForbidden('Admin access restricted')
+                except ValueError:
+                    return HttpResponseForbidden('Admin access restricted')
+        return self.get_response(request)
+
