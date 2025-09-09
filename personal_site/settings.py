@@ -58,20 +58,37 @@ INSTALLED_APPS = [
     'crispy_bootstrap5',
 ]
 
+# MIDDLEWARE = [
+#     'django.middleware.security.SecurityMiddleware',
+#     'whitenoise.middleware.WhiteNoiseMiddleware',  # For static files
+#     'main.security.SecurityMiddleware',  # Custom security middleware
+#     'main.security.RateLimitMiddleware',  # Rate limiting
+#     'axes.middleware.AxesMiddleware',
+#     'main.security.AdminRestrictMiddleware',  # Admin IP restriction
+#     'django.contrib.sessions.middleware.SessionMiddleware',
+#     'django.middleware.common.CommonMiddleware',
+#     'django.middleware.csrf.CsrfViewMiddleware',
+#     'django.contrib.auth.middleware.AuthenticationMiddleware',
+#     'django.contrib.messages.middleware.MessageMiddleware',
+#     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+# ]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',  # For static files
-    'main.security.SecurityMiddleware',  # Custom security middleware
-    'main.security.RateLimitMiddleware',  # Rate limiting
-    'axes.middleware.AxesMiddleware',
-    'main.security.AdminRestrictMiddleware',  # Admin IP restriction
-    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',  # MUST be before CSRF
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+    # Custom / third-party middlewares can come after session and auth
+    'main.security.SecurityMiddleware',
+    'main.security.RateLimitMiddleware',
+    'axes.middleware.AxesMiddleware',
+    'main.security.AdminRestrictMiddleware',
 ]
+
 
 ROOT_URLCONF = 'personal_site.urls'
 
