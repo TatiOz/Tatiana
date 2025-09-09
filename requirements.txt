@@ -46,3 +46,5 @@ traitlets==5.14.3
 tzdata==2025.2
 wcwidth==0.2.13
 whitenoise==6.9.0
+
+gunicorn==21.2.0
