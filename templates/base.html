@@ -70,65 +70,44 @@
     </main>
 
     <!-- Footer -->
-<!--     <footer class="footer">
+    <footer class="footer py-4 bg-light">
         <div class="container">
             <div class="row align-items-center">
+                <!-- Left side: copyright -->
                 <div class="col-md-6 d-flex justify-content-md-start justify-content-center align-items-center">
-                    <p class="mb-0">&copy; {% now "Y" %} Tatiana Ozhgibesova. All rights reserved.</p>
+                    <p class="mb-0 text-muted">&copy; {% now "Y" %} Tatiana Ozhgibesova. All rights reserved.</p>
                 </div>
-                <div
-                    class="col-md-6 d-flex justify-content-md-end justify-content-center gap-3 align-items-center flex-wrap">
-                    <a href="{% url 'main:privacy' %}" class="text-muted">Privacy Policy</a>
-                    <a href="{% url 'main:impressum' %}" class="text-muted">Impressum</a>
-                    <a href="{% url 'main:cookies' %}" class="text-muted">Cookie Settings</a>
-                    {% if social_links %}
-                    <div class="social-links ms-3">
-                        {% for social in social_links %}
-                        <a href="{{ social.url }}" class="social-link" target="_blank" rel="noopener">
-                            <i class="{{ social.icon }}"></i>
+    
+                <!-- Right side: links and social icons -->
+                <div class="col-md-6 d-flex justify-content-md-end justify-content-center gap-3 align-items-center flex-wrap">
+                    <a href="{% url 'main:privacy' %}" class="text-muted text-decoration-none">Privacy Policy</a>
+                    <a href="{% url 'main:impressum' %}" class="text-muted text-decoration-none">Impressum</a>
+                    <a href="{% url 'main:cookies' %}" class="text-muted text-decoration-none">Cookie Settings</a>
+    
+                    <!-- Social icons -->
+                    <div class="social-links d-flex gap-2 ms-3">
+                        <!-- Email -->
+                        <a href="mailto:ozhgibesovatatiana@gmail.com" class="social-link text-muted" target="_blank" rel="noopener">
+                            <i class="fas fa-envelope"></i>
                         </a>
-                        {% endfor %}
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/tatianaoz/" class="social-link text-muted" target="_blank" rel="noopener">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+    
+                        {% if social_links %}
+                            {% for social in social_links %}
+                            <a href="{{ social.url }}" class="social-link text-muted" target="_blank" rel="noopener">
+                                <i class="{{ social.icon }}"></i>
+                            </a>
+                            {% endfor %}
+                        {% endif %}
                     </div>
-                    {% endif %}
                 </div>
             </div>
         </div>
-    </footer> -->
+    </footer>
 
-    <footer class="footer py-4 bg-light">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6 d-flex justify-content-md-start justify-content-center align-items-center">
-                <p class="mb-0">&copy; {% now "Y" %} Tatiana Ozhgibesova. All rights reserved.</p>
-            </div>
-            <div class="col-md-6 d-flex justify-content-md-end justify-content-center gap-3 align-items-center flex-wrap">
-                <a href="{% url 'main:privacy' %}" class="text-secondary small text-decoration-none">Privacy Policy</a>
-                <a href="{% url 'main:impressum' %}" class="text-secondary small text-decoration-none">Impressum</a>
-                <a href="{% url 'main:cookies' %}" class="text-secondary small text-decoration-none">Cookie Settings</a>
-                
-<!--                 <div class="social-links ms-3 d-flex gap-2">
-                    <!-- Email -->
-<!--                     <a href="mailto:ozhgibesovatatiana@gmail.com" class="social-link text-secondary" target="_blank" rel="noopener">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                    <!-- LinkedIn -->
-<!--                     <a href="https://www.linkedin.com/in/tatianaoz/" class="social-link text-secondary" target="_blank" rel="noopener">
-                        <i class="fab fa-linkedin"></i>
-                    </a> --> -->
- -->
-<!--                     {% if social_links %}
-                        {% for social in social_links %}
-                        <a href="{{ social.url }}" class="social-link text-secondary" target="_blank" rel="noopener">
-                            <i class="{{ social.icon }}"></i>
-                        </a>
-                        {% endfor %}
-                    {% endif %} -->
-<!--                 </div> -->
-
-            </div>
-        </div>
-    </div>
-</footer>
 
 
     <!-- Bootstrap 5 JS (minimal for navbar functionality only) -->
