@@ -28,7 +28,8 @@ SECRET_KEY = config('SECRET_KEY', default='django-insecure-9-!z88jt43ou4*c-w%#wz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='localhost,127.0.0.1', cast=lambda v: [s.strip() for s in v.split(',')])
+# ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='localhost,127.0.0.1', cast=lambda v: [s.strip() for s in v.split(',')])
+ALLOWED_HOSTS = ["tatiana-m3aj.onrender.com", "127.0.0.1", "localhost"]
 ADMIN_ALLOWED_IPS = config('ADMIN_ALLOWED_IPS', default='')
 
 # Security Settings
