@@ -294,7 +294,7 @@
 </style>
 
 <!-- Interactive JavaScript -->
-<script>
+<script nonce="{{ request.csp_nonce }}">
     document.addEventListener('DOMContentLoaded', function () {
         // Fade in animation
         const fadeElements = document.querySelectorAll('.fade-in-text');
