@@ -69,11 +69,13 @@
         {% block content %}{% endblock %}
     </main>
 
-    <!-- Footer -->
+
+
     <footer class="footer">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6 d-flex justify-content-md-start justify-content-center align-items-center">
+                <div
+                    class="col-md-6 d-flex justify-content-md-start justify-content-center align-items-center flex-wrap">
                     <p class="mb-0">&copy; {% now "Y" %} Tatiana Ozhgibesova. All rights reserved.</p>
                 </div>
                 <div
@@ -81,7 +83,7 @@
                     <a href="{% url 'main:privacy' %}" class="text-muted">Privacy Policy</a>
                     <a href="{% url 'main:impressum' %}" class="text-muted">Impressum</a>
                     <a href="{% url 'main:cookies' %}" class="text-muted">Cookie Settings</a>
-                    {% if social_links %}
+                    <!-- {% if social_links %}
                     <div class="social-links ms-3">
                         {% for social in social_links %}
                         <a href="{{ social.url }}" class="social-link" target="_blank" rel="noopener">
@@ -89,7 +91,7 @@
                         </a>
                         {% endfor %}
                     </div>
-                    {% endif %}
+                    {% endif %} -->
                 </div>
             </div>
         </div>
