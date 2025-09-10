@@ -57,6 +57,7 @@ INSTALLED_APPS = [
     'main',
     'crispy_forms',
     'crispy_bootstrap5',
+    "csp",
 ]
 
 # MIDDLEWARE = [
@@ -88,7 +89,24 @@ MIDDLEWARE = [
     'main.security.RateLimitMiddleware',
     'axes.middleware.AxesMiddleware',
     'main.security.AdminRestrictMiddleware',
+    "csp.middleware.CSPMiddleware",
 ]
+
+
+# ✅ Content Security Policy (CSP) settings
+CONTENT_SECURITY_POLICY = {
+    "DIRECTIVES": {
+        "default-src": ("'self'",),
+        "script-src": ("'self'", "'nonce'"),  # no unsafe-inline, no unsafe-eval
+        "style-src": ("'self'", "'unsafe-inline'"),  # allow inline CSS only
+        "img-src": ("'self'", "data:",),
+        "font-src": ("'self'", "https://fonts.gstatic.com",),
+        "connect-src": ("'self'",),
+        "object-src": ("'none'",),
+        "base-uri": ("'self'",),
+        "frame-ancestors": ("'self'",),
+    }
+}
 
 
 ROOT_URLCONF = 'personal_site.urls'
