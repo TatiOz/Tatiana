@@ -264,7 +264,7 @@ a:hover {
     box-shadow: var(--shadow-lg);
     padding: var(--space-sm) 0;
     height: 80px;
-    z-index: 1030;
+    z-index: 1050; /* navbar всегда выше */
     border-bottom: 1px solid var(--gray-200);
 }
 
@@ -283,34 +283,37 @@ a:hover {
     background-size: 100% 100%;
 }
 
-/* Remove Bootstrap collapse animation */
-.navbar-collapse.collapsing {
-    height: auto !important;
-    transition: none !important;
-}
-
-*/
-
-/* When menu is expanded */
-.navbar .navbar-collapse.show {
-    background: #ffffff;
-    border-top: 1px solid var(--gray-200);
-    padding: 0.5rem 0.75rem;
-    box-shadow: var(--shadow-lg);
-}
-
-/* Mobile dropdown style */
+/* ===== Mobile fullscreen menu under navbar ===== */
 @media (max-width: 991.98px) {
-    .navbar .nav-link {
-        display: block;
-        padding: 0.75rem 1rem;
-        font-size: 1.1rem;
-        text-align: center;
-        width: 100%;
+    .navbar .navbar-collapse {
+        position: fixed;
+        top: 60px; /* высота navbar */
+        left: 0;
+        right: 0;
+        height: calc(100vh - 80px); /* всё окно минус navbar */
+        background: #ffffff;
+        padding: 2rem 1rem;
+        z-index: 1040; /* ниже navbar */
+        overflow-y: auto;
+
+        transform: translateY(-100%);
+        transition: transform 0.3s ease-in-out;
     }
 
-    .navbar .nav-link:hover {
-        background-color: var(--gray-100);
+    .navbar .navbar-collapse.show {
+        transform: translateY(0);
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .navbar .nav-link {
+        text-align: center;
+        font-size: 1.2rem;
+        width: 100%;
     }
 }
 
@@ -373,36 +376,14 @@ a:hover {
     transition: none !important;
 }
 
-/* Сразу показываем раскрытое меню без "мигания" */
 .navbar-collapse.show {
     height: auto !important;
     overflow: visible !important;
     transition: none !important;
 }
 
-/* Mobile drawer стиль — меню справа */
-@media (max-width: 991.98px) {
-    .navbar .navbar-collapse {
-        position: fixed !important;
-        top: 0 !important;
-        right: 0 !important;
-        left: auto !important;
-        height: 100vh !important;
-        width: 80%;
-        max-width: 360px;
-        background: #ffffff;
-        padding: 4.5rem 1rem 1rem;
-        box-shadow: -12px 0 24px rgba(0, 0, 0, 0.15);
-        border-left: 1px solid var(--gray-200);
-        z-index: 1050;
-        border-radius: 0;
-    }
 
-    .navbar-nav {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-}
+
 
 
 /* ===== HERO SECTION ===== */
