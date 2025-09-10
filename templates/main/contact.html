@@ -178,7 +178,7 @@
         {% endblock %}
 
         {% block extra_js %}
-        <script>
+        <script nonce="{{ request.csp_nonce }}">
             // Add honeypot input on page load (hidden from users)
             document.addEventListener('DOMContentLoaded', function () {
                 const forms = document.querySelectorAll('form');
