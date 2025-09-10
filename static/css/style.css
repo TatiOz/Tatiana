@@ -181,7 +181,9 @@ a:hover {
 .navbar-collapse.collapsing {
     height: auto !important;
     transition: none !important;
-} */
+}
+
+*/
 
 /* When menu is expanded */
 .navbar .navbar-collapse.show {
@@ -295,9 +297,6 @@ a:hover {
         gap: 0.5rem;
     }
 }
-
-
-
 
 
 /* ===== HERO SECTION ===== */
