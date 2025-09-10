@@ -151,6 +151,112 @@ a:hover {
 }
 
 
+/* ===== HOME PAGE SPECIAL LAYOUT ===== */
+
+/* Герой-секция (главный экран) */
+.hero-section {
+    padding-top: 6rem;   /* чуть больше отступ сверху под navbar */
+    padding-bottom: 6rem;
+    background: var(--color-bg, #fff);
+}
+
+/* Контент внутри героя */
+.hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: var(--space-md);
+    padding-right: var(--space-md);
+}
+
+/* Профиль */
+.profile-section {
+    background: #ffffff;
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.profile-section.hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.profile-image {
+    max-width: 220px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: var(--shadow-sm);
+}
+
+/* Имя и титулы */
+.profile-name {
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.profile-title {
+    font-size: 1.1rem;
+    color: var(--gray-700);
+}
+
+.profile-description {
+    font-size: 0.95rem;
+    color: var(--gray-600);
+}
+
+/* Кey Skills */
+.compact-section {
+    margin-top: 2rem;
+}
+
+.compact-title {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.compact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+.compact-card {
+    background: #fff;
+    border-radius: var(--radius-md);
+    padding: 1rem;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.compact-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+}
+
+.compact-card-title {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.compact-card-text {
+    font-size: 0.9rem;
+    color: var(--gray-600);
+}
+
+/* Call to action */
+.hero-section .btn {
+    min-width: 200px;
+}
+
+.hero-content > .row > div > .profile-section,
+.hero-content > .row > div > .compact-section,
+.hero-content > .row > div > .text-center {
+    margin-bottom: 2rem; /* расстояние между блоками */
+}
+
+
+
 /* ===== NAVIGATION ===== */
 .navbar {
     background: #ffffff;
@@ -664,8 +770,8 @@ a:hover {
 .skill-item {
     font-size: 0.9rem;
     color: var(--gray-600);
-    margin-bottom: var(--space-xs);
-    padding: var(--space-xs) 0;
+    margin-bottom: 0.25rem;
+    padding: 0.1rem 0;      
     position: relative;
     padding-left: var(--space-md);
 }
