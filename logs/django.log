@@ -1485,3 +1485,1685 @@ INFO 2025-09-09 17:15:58,351 apps 7204 11496 AXES: BEGIN version 6.3.0, blocking
 INFO 2025-09-09 17:18:24,437 apps 8096 9740 AXES: BEGIN version 6.3.0, blocking by 
 INFO 2025-09-09 17:18:24,800 apps 13996 1212 AXES: BEGIN version 6.3.0, blocking by 
 INFO 2025-09-09 17:18:24,815 autoreload 13996 1212 Watching for file changes with StatReloader
+INFO 2025-09-10 10:02:24,840 apps 5156 15024 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 10:02:25,237 apps 7192 17296 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 10:02:25,260 autoreload 7192 17296 Watching for file changes with StatReloader
+INFO 2025-09-10 10:02:28,407 basehttp 7192 2756 "GET / HTTP/1.1" 301 0
+INFO 2025-09-10 10:02:28,426 basehttp 7192 16372 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03Å´')
+ERROR 2025-09-10 10:02:28,428 basehttp 7192 16372 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 10:02:28,431 basehttp 7192 3684 code 400, message Bad request syntax ('\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03u')
+ERROR 2025-09-10 10:02:28,431 basehttp 7192 3684 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 10:03:56,425 basehttp 7192 2768 code 400, message Bad request version ("áK¾í\x84\x1a³Å\x08K|\x12.U\x12\x06;[$,§rJ(<r6\x11ëRLt¨'ù\x14")
+ERROR 2025-09-10 10:03:56,426 basehttp 7192 2768 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 10:03:56,427 basehttp 7192 17396 code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93')
+ERROR 2025-09-10 10:03:56,428 basehttp 7192 17396 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 10:05:49,661 apps 4716 13696 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 10:05:54,646 basehttp 4716 14584 code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93\x8a\x8a\x00\x00\x00')
+ERROR 2025-09-10 10:05:54,646 basehttp 4716 14584 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 10:05:54,660 basehttp 4716 9372 code 400, message Bad request version ('Êµ\\RÆ\x15ìj\\ÑkoÔáK\x18\x93\x9f*ö\x9fÞ&9p\x8a\x08\x89@:r')
+ERROR 2025-09-10 10:05:54,660 basehttp 4716 9372 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 10:05:59,170 basehttp 4716 14528 code 400, message Bad request version ("D^\x19yjó¥é¨lj\x1aæ&µuWn\x8a¢'r")
+ERROR 2025-09-10 10:05:59,172 basehttp 4716 14528 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 10:05:59,173 basehttp 4716 15844 code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S')
+ERROR 2025-09-10 10:05:59,173 basehttp 4716 15844 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 10:05:59,175 basehttp 4716 14776 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x17\x00\x00\x00-\x00\x02\x01\x01DÍ\x00\x05\x00\x03\x02h2ÿ\x01\x00\x01\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+INFO 2025-09-10 10:05:59,175 basehttp 4716 13996 code 400, message Bad request version ('\x8e\x8e\x19*tØ¸±\x19\x01þì2\x00')
+ERROR 2025-09-10 10:05:59,176 basehttp 4716 14776 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2025-09-10 10:05:59,176 basehttp 4716 13996 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 10:06:57,585 apps 16540 9668 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 10:06:57,955 apps 3864 8908 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 10:06:57,966 autoreload 3864 8908 Watching for file changes with StatReloader
+INFO 2025-09-10 10:07:09,076 basehttp 3864 2932 code 400, message Bad request version ('¹®(\x00')
+ERROR 2025-09-10 10:07:09,077 basehttp 3864 2932 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 10:07:09,081 basehttp 3864 5428 code 400, message Bad request syntax ('\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x7fmI\x17\x17\x98=k´qíj')
+ERROR 2025-09-10 10:07:09,081 basehttp 3864 5428 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 10:10:22,094 autoreload 3864 8908 C:\Users\user\Documents\site\personal_site\settings.py changed, reloading.
+INFO 2025-09-10 10:10:22,575 apps 2808 14152 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 10:10:22,607 autoreload 2808 14152 Watching for file changes with StatReloader
+INFO 2025-09-10 10:10:24,026 autoreload 2808 14152 C:\Users\user\Documents\site\personal_site\settings.py changed, reloading.
+INFO 2025-09-10 10:10:24,550 apps 17316 11680 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 10:10:24,575 autoreload 17316 11680 Watching for file changes with StatReloader
+INFO 2025-09-10 10:10:30,973 basehttp 17316 10016 code 400, message Bad request version ('\x00\x02\x01\x00\x00#\x00\x00\x00+\x00\x07\x06')
+ERROR 2025-09-10 10:10:30,976 basehttp 17316 10016 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 10:10:30,978 basehttp 17316 2856 code 400, message Bad request version ('\x00\x02\x01\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+ERROR 2025-09-10 10:10:30,979 basehttp 17316 2856 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 10:12:41,242 apps 1528 13120 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 10:12:41,599 apps 16472 17364 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 10:12:41,629 autoreload 16472 17364 Watching for file changes with StatReloader
+INFO 2025-09-10 10:12:47,591 basehttp 16472 17160 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06')
+ERROR 2025-09-10 10:12:47,591 basehttp 16472 17160 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 10:12:47,593 basehttp 16472 17352 code 400, message Bad request version ("2'f\x00")
+ERROR 2025-09-10 10:12:47,594 basehttp 16472 17352 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 10:13:29,816 apps 15956 7192 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 10:13:30,158 apps 3052 2432 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 10:13:30,178 autoreload 3052 2432 Watching for file changes with StatReloader
+INFO 2025-09-10 10:13:32,460 basehttp 3052 13416 code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06súú\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+ERROR 2025-09-10 10:13:32,460 basehttp 3052 13416 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 10:13:32,463 basehttp 3052 16376 code 400, message Bad request version ('{äúæ,ö/Êü\x13\x04\x17&Îd¢2Ç\x9fãâY\x19umÌ#)')
+ERROR 2025-09-10 10:13:32,464 basehttp 3052 16376 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 10:14:23,037 basehttp 3052 12144 code 400, message Bad request version ('6¶uå\x9e\x90á\x10æÙ¸\x80¸\x8a\x06')
+ERROR 2025-09-10 10:14:23,038 basehttp 3052 12144 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 10:14:23,040 basehttp 3052 15000 code 400, message Bad request version ("t\x99RïÃ\x9b\x18ä\x96÷ÏÄ@Û\x8aÇ>f[\x13Å\x8eèêiÇ\x01´¢vÙ\x19´\x963\x9d#\x8b\x04KQ7(\x05\x94£ûþy\x9a*¢¸^oF\x17\x0f]\x00q\x00§ç&Û¹ö³Ñ#W$´Z'¥ö/Ô!\x9f(\x86@ì¹u\x94")
+ERROR 2025-09-10 10:14:23,040 basehttp 3052 15000 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 10:32:17,142 apps 10132 14616 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 10:32:17,530 apps 3568 2896 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 10:32:17,550 autoreload 3568 2896 Watching for file changes with StatReloader
+INFO 2025-09-10 10:32:19,319 basehttp 3568 8792 "GET / HTTP/1.1" 200 8946
+INFO 2025-09-10 10:32:19,458 basehttp 3568 8792 "GET /static/css/style.css HTTP/1.1" 200 23305
+INFO 2025-09-10 10:32:19,460 basehttp 3568 12256 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 10:32:19,509 basehttp 3568 12256 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 10:32:19,528 basehttp 3568 12256 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 10:33:52,607 basehttp 3568 12256 "GET /static/css/style.css HTTP/1.1" 200 23305
+WARNING 2025-09-10 10:33:52,755 log 3568 12256 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 10:33:52,756 basehttp 3568 12256 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 10:34:45,799 basehttp 3568 12256 "GET / HTTP/1.1" 200 8937
+INFO 2025-09-10 10:34:45,888 basehttp 3568 12256 "GET /static/css/style.css HTTP/1.1" 200 23305
+INFO 2025-09-10 10:34:45,892 basehttp 3568 8792 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+WARNING 2025-09-10 10:34:45,907 log 3568 12256 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 10:34:45,953 basehttp 3568 12256 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 10:34:46,052 basehttp 3568 12256 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 10:34:46,101 basehttp 3568 12256 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 10:34:50,612 basehttp 3568 12256 "GET / HTTP/1.1" 200 8937
+WARNING 2025-09-10 10:34:50,677 log 3568 12256 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 10:34:50,679 basehttp 3568 12256 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 10:34:50,686 basehttp 3568 12256 "GET /static/css/style.css HTTP/1.1" 200 23305
+INFO 2025-09-10 10:34:50,690 basehttp 3568 8792 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 10:34:50,815 basehttp 3568 8792 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 10:34:50,843 basehttp 3568 8792 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 10:45:12,440 basehttp 3568 11556 "GET / HTTP/1.1" 200 10641
+INFO 2025-09-10 10:45:12,511 basehttp 3568 11556 "GET /static/css/style.css HTTP/1.1" 200 26439
+INFO 2025-09-10 10:45:12,514 basehttp 3568 16792 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+WARNING 2025-09-10 10:45:12,562 log 3568 16792 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 10:45:12,564 basehttp 3568 16792 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 10:45:12,641 basehttp 3568 16792 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 10:45:12,664 basehttp 3568 16792 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 10:45:17,931 basehttp 3568 16792 "GET / HTTP/1.1" 200 10641
+WARNING 2025-09-10 10:45:18,023 log 3568 5632 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+INFO 2025-09-10 10:45:18,023 basehttp 3568 16792 "GET /static/css/style.css HTTP/1.1" 200 26439
+WARNING 2025-09-10 10:45:18,024 basehttp 3568 5632 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 10:45:18,027 basehttp 3568 11556 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 10:45:18,102 basehttp 3568 11556 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 10:45:33,730 basehttp 3568 11556 "GET / HTTP/1.1" 200 10641
+INFO 2025-09-10 10:45:33,806 basehttp 3568 11556 "GET /static/css/style.css HTTP/1.1" 200 26439
+INFO 2025-09-10 10:45:33,810 basehttp 3568 5632 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+WARNING 2025-09-10 10:45:33,817 log 3568 11556 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 10:45:33,818 basehttp 3568 11556 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 10:45:33,880 basehttp 3568 11556 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 10:45:34,259 basehttp 3568 11556 "GET / HTTP/1.1" 200 10641
+WARNING 2025-09-10 10:45:34,334 log 3568 5632 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 10:45:34,336 basehttp 3568 5632 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 10:45:34,336 basehttp 3568 11556 "GET /static/css/style.css HTTP/1.1" 200 26439
+INFO 2025-09-10 10:45:34,337 basehttp 3568 16792 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 10:45:34,406 basehttp 3568 16792 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 10:45:47,667 basehttp 3568 16792 "GET / HTTP/1.1" 200 10641
+WARNING 2025-09-10 10:45:47,742 log 3568 16792 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 10:45:47,743 basehttp 3568 16792 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 10:45:47,745 basehttp 3568 11556 "GET /static/css/style.css HTTP/1.1" 200 23305
+INFO 2025-09-10 10:45:47,746 basehttp 3568 5632 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 10:45:47,811 basehttp 3568 5632 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 10:45:47,832 basehttp 3568 5632 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 10:46:07,901 basehttp 3568 5632 "GET / HTTP/1.1" 200 8937
+INFO 2025-09-10 10:46:07,965 basehttp 3568 5632 "GET /static/css/style.css HTTP/1.1" 200 23305
+INFO 2025-09-10 10:46:07,973 basehttp 3568 11556 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+WARNING 2025-09-10 10:46:07,983 log 3568 5632 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 10:46:07,984 basehttp 3568 5632 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 10:46:08,083 basehttp 3568 5632 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 10:46:08,105 basehttp 3568 5632 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 10:48:20,646 basehttp 3568 5632 "GET / HTTP/1.1" 200 8937
+INFO 2025-09-10 10:48:20,720 basehttp 3568 5632 "GET /static/css/style.css HTTP/1.1" 200 26493
+INFO 2025-09-10 10:48:20,723 basehttp 3568 11556 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+WARNING 2025-09-10 10:48:20,736 log 3568 16792 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 10:48:20,737 basehttp 3568 16792 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 10:48:20,845 basehttp 3568 16792 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 10:48:20,871 basehttp 3568 16792 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 10:48:24,769 basehttp 3568 16792 "GET / HTTP/1.1" 200 8937
+INFO 2025-09-10 10:48:24,856 basehttp 3568 16792 "GET /static/css/style.css HTTP/1.1" 200 26493
+WARNING 2025-09-10 10:48:24,871 log 3568 5632 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+INFO 2025-09-10 10:48:24,871 basehttp 3568 11556 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+WARNING 2025-09-10 10:48:24,872 basehttp 3568 5632 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 10:48:24,945 basehttp 3568 5632 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 10:48:30,205 basehttp 3568 5632 "GET /contact/ HTTP/1.1" 200 11664
+WARNING 2025-09-10 10:48:30,299 log 3568 5632 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 10:48:30,303 basehttp 3568 5632 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 10:48:30,304 basehttp 3568 11556 "GET /static/css/style.css HTTP/1.1" 200 26493
+INFO 2025-09-10 10:48:30,401 basehttp 3568 11556 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 10:52:14,728 basehttp 3568 9764 "GET / HTTP/1.1" 200 8937
+WARNING 2025-09-10 10:52:14,822 log 3568 9764 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 10:52:14,825 basehttp 3568 9764 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 10:52:14,825 basehttp 3568 15572 "GET /static/css/style.css HTTP/1.1" 200 26493
+INFO 2025-09-10 10:52:14,830 basehttp 3568 15572 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 10:52:15,000 basehttp 3568 15572 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 10:52:17,205 basehttp 3568 15572 "GET /about/ HTTP/1.1" 200 13784
+WARNING 2025-09-10 10:52:17,294 log 3568 15572 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 10:52:17,296 basehttp 3568 15572 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 10:52:17,296 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 26493
+INFO 2025-09-10 10:52:17,323 basehttp 3568 9764 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 10:52:17,438 basehttp 3568 9764 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 10:52:23,257 basehttp 3568 9764 "GET / HTTP/1.1" 200 8937
+WARNING 2025-09-10 10:52:23,334 log 3568 9764 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 10:52:23,335 basehttp 3568 9764 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 10:52:23,342 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 26493
+INFO 2025-09-10 10:52:23,347 basehttp 3568 15572 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 10:52:23,442 basehttp 3568 15572 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 10:52:34,171 basehttp 3568 15572 "GET / HTTP/1.1" 200 8937
+WARNING 2025-09-10 10:52:34,248 log 3568 15572 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 10:52:34,250 basehttp 3568 15572 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 10:52:34,252 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 26493
+INFO 2025-09-10 10:52:34,255 basehttp 3568 6384 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 10:52:34,337 basehttp 3568 6384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 10:56:44,727 basehttp 3568 6384 "GET / HTTP/1.1" 200 8937
+INFO 2025-09-10 10:56:44,822 basehttp 3568 6384 "GET /static/css/style.css HTTP/1.1" 200 26493
+INFO 2025-09-10 10:56:44,825 basehttp 3568 9764 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+WARNING 2025-09-10 10:56:44,843 log 3568 9764 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 10:56:44,844 basehttp 3568 9764 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 10:56:44,943 basehttp 3568 9764 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 10:56:46,393 basehttp 3568 9764 "GET / HTTP/1.1" 200 8937
+INFO 2025-09-10 10:56:46,456 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 26493
+WARNING 2025-09-10 10:56:46,467 log 3568 15572 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 10:56:46,467 basehttp 3568 15572 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 10:56:46,469 basehttp 3568 6384 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 10:56:46,547 basehttp 3568 6384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 10:56:48,840 basehttp 3568 6384 "GET /about/ HTTP/1.1" 200 13784
+INFO 2025-09-10 10:56:48,937 basehttp 3568 6384 "GET /static/css/style.css HTTP/1.1" 200 26493
+WARNING 2025-09-10 10:56:48,950 log 3568 6384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 10:56:48,951 basehttp 3568 6384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 10:56:48,958 basehttp 3568 15572 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 10:56:49,063 basehttp 3568 15572 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 10:56:50,778 basehttp 3568 15572 "GET / HTTP/1.1" 200 8937
+WARNING 2025-09-10 10:56:50,870 log 3568 6384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+INFO 2025-09-10 10:56:50,872 basehttp 3568 15572 "GET /static/css/style.css HTTP/1.1" 200 26493
+WARNING 2025-09-10 10:56:50,873 basehttp 3568 6384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 10:56:50,878 basehttp 3568 9764 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 10:56:50,951 basehttp 3568 9764 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 10:56:55,516 basehttp 3568 9764 "GET /about/ HTTP/1.1" 200 13784
+INFO 2025-09-10 10:56:55,612 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 26493
+WARNING 2025-09-10 10:56:55,624 log 3568 6384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 10:56:55,625 basehttp 3568 6384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 10:56:55,632 basehttp 3568 6384 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 10:56:55,735 basehttp 3568 6384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:00:18,576 basehttp 3568 6384 "GET / HTTP/1.1" 200 8895
+WARNING 2025-09-10 11:00:18,682 log 3568 6384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:00:18,685 basehttp 3568 6384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:00:18,685 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 26493
+INFO 2025-09-10 11:00:18,693 basehttp 3568 9764 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:00:18,867 basehttp 3568 9764 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:00:21,781 basehttp 3568 9764 "GET / HTTP/1.1" 200 8895
+INFO 2025-09-10 11:00:21,861 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 26493
+WARNING 2025-09-10 11:00:21,872 log 3568 9764 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+INFO 2025-09-10 11:00:21,873 basehttp 3568 6384 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+WARNING 2025-09-10 11:00:21,874 basehttp 3568 9764 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:00:21,931 basehttp 3568 9764 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:00:21,951 basehttp 3568 9764 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:00:31,094 basehttp 3568 9764 "GET / HTTP/1.1" 200 8895
+INFO 2025-09-10 11:00:31,207 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 26493
+INFO 2025-09-10 11:00:31,216 basehttp 3568 6384 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+WARNING 2025-09-10 11:00:31,229 log 3568 6384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:00:31,232 basehttp 3568 6384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:00:31,319 basehttp 3568 6384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:00:43,262 basehttp 3568 6384 "GET / HTTP/1.1" 200 8937
+WARNING 2025-09-10 11:00:43,351 log 3568 6384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:00:43,352 basehttp 3568 6384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:00:43,353 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 26493
+INFO 2025-09-10 11:00:43,355 basehttp 3568 15572 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:00:43,469 basehttp 3568 15572 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:00:43,492 basehttp 3568 15572 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:00:45,731 basehttp 3568 15572 "GET / HTTP/1.1" 200 8937
+WARNING 2025-09-10 11:00:45,801 log 3568 15572 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:00:45,802 basehttp 3568 15572 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:00:45,803 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 26493
+INFO 2025-09-10 11:00:45,805 basehttp 3568 6384 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:00:45,858 basehttp 3568 6384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:00:45,891 basehttp 3568 6384 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:00:49,657 basehttp 3568 6384 "GET / HTTP/1.1" 200 8937
+INFO 2025-09-10 11:00:49,739 basehttp 3568 6384 "GET /static/css/style.css HTTP/1.1" 200 26493
+WARNING 2025-09-10 11:00:49,750 log 3568 15572 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:00:49,751 basehttp 3568 15572 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:00:49,752 basehttp 3568 9764 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:00:49,802 basehttp 3568 9764 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:05:47,390 basehttp 3568 9764 "GET / HTTP/1.1" 200 8814
+INFO 2025-09-10 11:05:47,480 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 28479
+INFO 2025-09-10 11:05:47,482 basehttp 3568 15572 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+WARNING 2025-09-10 11:05:47,497 log 3568 15572 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:05:47,498 basehttp 3568 15572 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:05:47,574 basehttp 3568 15572 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:05:47,605 basehttp 3568 15572 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:05:54,181 basehttp 3568 15572 "GET / HTTP/1.1" 200 8814
+WARNING 2025-09-10 11:05:54,268 log 3568 15572 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:05:54,269 basehttp 3568 15572 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:05:54,271 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 28479
+INFO 2025-09-10 11:05:54,274 basehttp 3568 16488 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:05:54,355 basehttp 3568 16488 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:07:21,426 basehttp 3568 16488 "GET / HTTP/1.1" 200 8877
+INFO 2025-09-10 11:07:21,515 basehttp 3568 16488 "GET /static/css/style.css HTTP/1.1" 200 28479
+WARNING 2025-09-10 11:07:21,531 log 3568 16488 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:07:21,531 basehttp 3568 16488 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:07:21,607 basehttp 3568 16488 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:07:21,686 basehttp 3568 16488 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:07:21,719 basehttp 3568 16488 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:07:30,437 basehttp 3568 16488 "GET /about/ HTTP/1.1" 200 13784
+WARNING 2025-09-10 11:07:30,517 log 3568 16488 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:07:30,521 basehttp 3568 16488 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:07:30,523 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 28479
+INFO 2025-09-10 11:07:30,530 basehttp 3568 15572 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 11:07:30,622 basehttp 3568 15572 "GET /static/js/main.js HTTP/1.1" 200 1086
+WARNING 2025-09-10 11:07:33,703 log 3568 15572 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:07:33,704 basehttp 3568 15572 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+WARNING 2025-09-10 11:07:33,794 log 3568 15572 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:07:33,796 basehttp 3568 15572 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:10:57,699 basehttp 3568 15572 "GET / HTTP/1.1" 200 8808
+WARNING 2025-09-10 11:10:57,774 log 3568 15572 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:10:57,776 basehttp 3568 15572 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:10:57,776 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:10:57,778 basehttp 3568 16488 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:10:57,860 basehttp 3568 16488 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:10:57,885 basehttp 3568 16488 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:13:02,597 basehttp 3568 16488 "GET / HTTP/1.1" 200 8838
+WARNING 2025-09-10 11:13:02,687 log 3568 16488 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:13:02,689 basehttp 3568 16488 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:13:02,690 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:13:02,694 basehttp 3568 15572 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:13:02,794 basehttp 3568 15572 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:13:02,819 basehttp 3568 15572 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:13:13,730 basehttp 3568 15572 "GET /about/ HTTP/1.1" 200 13784
+WARNING 2025-09-10 11:13:13,805 log 3568 15572 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:13:13,810 basehttp 3568 15572 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:13:13,832 basehttp 3568 15572 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:13:13,838 basehttp 3568 9764 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 11:13:14,001 basehttp 3568 9764 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:13:15,012 basehttp 3568 9764 "GET /skills/ HTTP/1.1" 200 7648
+WARNING 2025-09-10 11:13:15,080 log 3568 9764 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:13:15,080 basehttp 3568 9764 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:13:15,089 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:13:15,186 basehttp 3568 9764 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:13:15,894 basehttp 3568 9764 "GET /contact/ HTTP/1.1" 200 11664
+WARNING 2025-09-10 11:13:15,966 log 3568 9764 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:13:15,967 basehttp 3568 9764 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:13:15,976 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:13:16,074 basehttp 3568 9764 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:13:18,969 basehttp 3568 9764 "GET /skills/ HTTP/1.1" 200 7648
+WARNING 2025-09-10 11:13:19,029 log 3568 9764 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:13:19,030 basehttp 3568 9764 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:13:19,041 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:13:19,187 basehttp 3568 9764 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:13:20,992 basehttp 3568 9764 "GET /about/ HTTP/1.1" 200 13784
+WARNING 2025-09-10 11:13:21,059 log 3568 9764 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:13:21,063 basehttp 3568 9764 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:13:21,083 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:13:21,094 basehttp 3568 15572 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 11:13:21,233 basehttp 3568 15572 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:13:22,200 basehttp 3568 15572 "GET / HTTP/1.1" 200 8838
+WARNING 2025-09-10 11:13:22,275 log 3568 15572 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:13:22,275 basehttp 3568 15572 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:13:22,295 basehttp 3568 15572 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:13:22,298 basehttp 3568 9764 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:13:22,381 basehttp 3568 9764 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:14:33,809 basehttp 3568 9764 "GET / HTTP/1.1" 200 8854
+WARNING 2025-09-10 11:14:33,886 log 3568 9764 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:14:33,887 basehttp 3568 9764 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:14:33,902 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:14:33,907 basehttp 3568 15572 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:14:34,091 basehttp 3568 15572 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:14:34,123 basehttp 3568 15572 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:14:48,348 basehttp 3568 15572 "GET / HTTP/1.1" 200 8838
+WARNING 2025-09-10 11:14:48,394 log 3568 15572 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:14:48,394 basehttp 3568 15572 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:14:48,400 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:14:48,404 basehttp 3568 15572 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:14:48,510 basehttp 3568 15572 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:14:48,540 basehttp 3568 15572 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:15:36,782 basehttp 3568 15572 "GET / HTTP/1.1" 200 8830
+WARNING 2025-09-10 11:15:36,842 log 3568 15572 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:15:36,844 basehttp 3568 15572 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:15:36,845 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:15:36,850 basehttp 3568 16488 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:15:37,008 basehttp 3568 16488 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:15:37,034 basehttp 3568 16488 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:16:23,156 basehttp 3568 16488 "GET / HTTP/1.1" 200 8838
+WARNING 2025-09-10 11:16:23,209 log 3568 16488 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:16:23,209 basehttp 3568 16488 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:16:23,215 basehttp 3568 16488 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:16:23,218 basehttp 3568 9764 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:16:23,328 basehttp 3568 9764 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:16:23,348 basehttp 3568 9764 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:16:43,045 basehttp 3568 9764 "GET / HTTP/1.1" 200 8829
+WARNING 2025-09-10 11:16:43,101 log 3568 9764 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:16:43,102 basehttp 3568 9764 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:16:43,103 basehttp 3568 16488 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:16:43,105 basehttp 3568 15572 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:16:43,220 basehttp 3568 15572 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:16:43,248 basehttp 3568 15572 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:17:16,854 basehttp 3568 15572 "GET / HTTP/1.1" 200 8843
+WARNING 2025-09-10 11:17:16,912 log 3568 15572 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:17:16,914 basehttp 3568 15572 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:17:16,915 basehttp 3568 16488 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:17:16,916 basehttp 3568 9764 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:17:17,032 basehttp 3568 9764 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:17:17,055 basehttp 3568 9764 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:17:32,727 basehttp 3568 9764 "GET / HTTP/1.1" 200 8842
+INFO 2025-09-10 11:17:32,775 basehttp 3568 9764 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:17:32,780 basehttp 3568 16488 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+WARNING 2025-09-10 11:17:32,789 log 3568 9764 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:17:32,790 basehttp 3568 9764 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:17:32,887 basehttp 3568 9764 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:17:32,914 basehttp 3568 9764 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:17:46,081 basehttp 3568 9764 "GET / HTTP/1.1" 200 8843
+WARNING 2025-09-10 11:17:46,139 log 3568 9764 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:17:46,143 basehttp 3568 9764 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:17:46,143 basehttp 3568 16488 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:17:46,147 basehttp 3568 15572 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:17:46,269 basehttp 3568 15572 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:17:46,300 basehttp 3568 15572 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:18:52,725 basehttp 3568 15572 "GET / HTTP/1.1" 200 8857
+INFO 2025-09-10 11:18:52,817 basehttp 3568 15572 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:18:52,864 basehttp 3568 15572 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+WARNING 2025-09-10 11:18:52,872 log 3568 16488 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:18:52,873 basehttp 3568 16488 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:18:52,913 basehttp 3568 16488 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:18:52,938 basehttp 3568 16488 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:19:03,585 basehttp 3568 16488 "GET / HTTP/1.1" 200 8843
+INFO 2025-09-10 11:19:03,657 basehttp 3568 16488 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:19:03,659 basehttp 3568 15572 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+WARNING 2025-09-10 11:19:03,730 log 3568 15572 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:19:03,732 basehttp 3568 15572 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:19:03,752 basehttp 3568 15572 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:19:03,773 basehttp 3568 15572 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:19:18,055 basehttp 3568 15572 "GET / HTTP/1.1" 200 8852
+WARNING 2025-09-10 11:19:18,112 log 3568 15572 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:19:18,114 basehttp 3568 15572 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:19:18,115 basehttp 3568 16488 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:19:18,117 basehttp 3568 9764 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:19:18,160 basehttp 3568 9764 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:19:18,181 basehttp 3568 9764 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:20:20,639 basehttp 3568 10580 "GET / HTTP/1.1" 200 8832
+WARNING 2025-09-10 11:20:20,708 log 3568 10580 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:20:20,710 basehttp 3568 10580 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:20:20,714 basehttp 3568 10636 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:20:20,716 basehttp 3568 16776 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:20:20,838 basehttp 3568 16776 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:20:20,864 basehttp 3568 16776 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:23:46,906 basehttp 3568 16776 "GET / HTTP/1.1" 200 9829
+WARNING 2025-09-10 11:23:47,014 log 3568 16776 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+INFO 2025-09-10 11:23:47,016 basehttp 3568 10636 "GET /static/css/style.css HTTP/1.1" 200 28704
+WARNING 2025-09-10 11:23:47,031 basehttp 3568 16776 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:23:47,049 basehttp 3568 16776 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:23:47,142 basehttp 3568 16776 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:23:47,184 basehttp 3568 16776 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:24:02,230 basehttp 3568 16776 "GET /cookies/ HTTP/1.1" 200 5730
+WARNING 2025-09-10 11:24:02,294 log 3568 16776 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:24:02,297 basehttp 3568 16776 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:24:02,299 basehttp 3568 10636 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:24:02,371 basehttp 3568 10636 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:25:26,317 basehttp 3568 10636 "GET /cookies/ HTTP/1.1" 200 5937
+WARNING 2025-09-10 11:25:26,377 log 3568 10636 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:25:26,377 basehttp 3568 10636 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:25:26,381 basehttp 3568 16776 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:25:26,500 basehttp 3568 16776 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:25:26,516 basehttp 3568 16776 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:25:28,817 basehttp 3568 16776 "GET /cookies/ HTTP/1.1" 200 5937
+WARNING 2025-09-10 11:25:28,868 log 3568 16776 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:25:28,869 basehttp 3568 16776 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:25:28,870 basehttp 3568 10636 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:25:28,927 basehttp 3568 10636 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:25:28,945 basehttp 3568 10636 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:25:29,060 basehttp 3568 10636 "GET /cookies/ HTTP/1.1" 200 5937
+WARNING 2025-09-10 11:25:29,112 log 3568 10636 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:25:29,113 basehttp 3568 10636 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:25:29,114 basehttp 3568 16776 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:25:29,215 basehttp 3568 16776 "GET /cookies/ HTTP/1.1" 200 5937
+INFO 2025-09-10 11:25:29,267 basehttp 3568 16776 "GET /static/css/style.css HTTP/1.1" 200 28704
+WARNING 2025-09-10 11:25:29,275 log 3568 10636 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:25:29,276 basehttp 3568 10636 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:25:29,319 basehttp 3568 10636 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:25:29,338 basehttp 3568 10636 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:25:37,517 basehttp 3568 10636 "GET / HTTP/1.1" 200 10036
+WARNING 2025-09-10 11:25:37,590 log 3568 10636 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:25:37,591 basehttp 3568 10636 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:25:37,593 basehttp 3568 16776 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:25:37,599 basehttp 3568 10636 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:25:37,667 basehttp 3568 10636 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:27:33,549 basehttp 3568 10636 "GET / HTTP/1.1" 200 10141
+WARNING 2025-09-10 11:27:33,618 log 3568 10636 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:27:33,621 basehttp 3568 10636 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:27:33,622 basehttp 3568 16776 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:27:33,623 basehttp 3568 14504 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:27:33,772 basehttp 3568 14504 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:27:33,796 basehttp 3568 14504 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:28:51,772 basehttp 3568 14504 "GET /about/ HTTP/1.1" 200 13779
+INFO 2025-09-10 11:28:51,846 basehttp 3568 14504 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:28:51,853 basehttp 3568 16776 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+WARNING 2025-09-10 11:28:51,933 log 3568 16776 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:28:51,934 basehttp 3568 16776 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:28:52,066 basehttp 3568 16776 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:28:57,704 basehttp 3568 16776 "GET /about/ HTTP/1.1" 200 13779
+WARNING 2025-09-10 11:28:57,753 log 3568 16776 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:28:57,754 basehttp 3568 16776 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:28:57,759 basehttp 3568 14504 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:28:57,766 basehttp 3568 16776 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 11:28:57,868 basehttp 3568 16776 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:28:57,898 basehttp 3568 16776 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:29:16,177 basehttp 3568 16776 "GET /about/ HTTP/1.1" 200 13775
+WARNING 2025-09-10 11:29:16,216 log 3568 16776 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:29:16,218 basehttp 3568 16776 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:29:16,223 basehttp 3568 16776 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:29:16,241 basehttp 3568 16776 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 11:29:16,348 basehttp 3568 16776 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:29:16,367 basehttp 3568 16776 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:30:08,577 basehttp 3568 16776 "GET /about/ HTTP/1.1" 200 13910
+WARNING 2025-09-10 11:30:08,635 log 3568 16776 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:30:08,636 basehttp 3568 16776 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:30:08,637 basehttp 3568 14504 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:30:08,651 basehttp 3568 16776 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 11:30:08,758 basehttp 3568 16776 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:30:08,822 basehttp 3568 16776 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:30:19,016 basehttp 3568 16776 "GET / HTTP/1.1" 200 8969
+WARNING 2025-09-10 11:30:19,084 log 3568 16776 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:30:19,089 basehttp 3568 16776 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:30:19,092 basehttp 3568 14504 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:30:19,093 basehttp 3568 10636 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:30:19,231 basehttp 3568 10636 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:30:22,443 basehttp 3568 10636 "GET / HTTP/1.1" 200 8969
+WARNING 2025-09-10 11:30:22,505 log 3568 10636 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:30:22,506 basehttp 3568 10636 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:30:22,513 basehttp 3568 10636 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:30:22,517 basehttp 3568 14504 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:30:22,601 basehttp 3568 14504 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:30:27,081 basehttp 3568 14504 "GET /about/ HTTP/1.1" 200 13910
+WARNING 2025-09-10 11:30:27,154 log 3568 14504 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:30:27,155 basehttp 3568 14504 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:30:27,158 basehttp 3568 10636 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:30:27,167 basehttp 3568 16776 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 11:30:27,351 basehttp 3568 16776 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:31:27,342 basehttp 3568 16776 "GET /about/ HTTP/1.1" 200 14118
+WARNING 2025-09-10 11:31:27,420 log 3568 16776 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:31:27,422 basehttp 3568 16776 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:31:27,424 basehttp 3568 10636 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:31:27,432 basehttp 3568 14504 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 11:31:27,556 basehttp 3568 14504 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:31:27,587 basehttp 3568 14504 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:31:36,979 basehttp 3568 14504 "GET /privacy/ HTTP/1.1" 200 6209
+WARNING 2025-09-10 11:31:37,050 log 3568 14504 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:31:37,052 basehttp 3568 14504 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:31:37,058 basehttp 3568 10636 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:31:37,165 basehttp 3568 10636 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:31:45,647 basehttp 3568 10636 "GET / HTTP/1.1" 200 8969
+WARNING 2025-09-10 11:31:45,714 log 3568 10636 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:31:45,715 basehttp 3568 10636 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:31:45,718 basehttp 3568 14504 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:31:45,730 basehttp 3568 10636 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:31:45,819 basehttp 3568 10636 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:31:50,456 basehttp 3568 10636 "GET / HTTP/1.1" 200 8969
+WARNING 2025-09-10 11:31:50,538 log 3568 10636 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:31:50,541 basehttp 3568 10636 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:31:50,542 basehttp 3568 14504 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:31:50,544 basehttp 3568 16776 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:31:50,615 basehttp 3568 16776 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:31:52,701 basehttp 3568 16776 "GET /about/ HTTP/1.1" 200 14118
+WARNING 2025-09-10 11:31:52,788 log 3568 16776 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:31:52,790 basehttp 3568 16776 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:31:52,791 basehttp 3568 14504 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:31:52,810 basehttp 3568 14504 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 11:31:52,898 basehttp 3568 14504 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:31:55,905 basehttp 3568 14504 "GET / HTTP/1.1" 200 8969
+WARNING 2025-09-10 11:31:55,990 log 3568 14504 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:31:55,991 basehttp 3568 14504 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:31:55,993 basehttp 3568 16776 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:31:56,008 basehttp 3568 16776 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:31:56,118 basehttp 3568 16776 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:36:10,552 basehttp 3568 16776 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 11:36:10,615 log 3568 16776 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:36:10,616 basehttp 3568 16776 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:36:10,618 basehttp 3568 14504 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:36:10,620 basehttp 3568 10636 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:36:10,694 basehttp 3568 10636 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:36:10,717 basehttp 3568 10636 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:37:30,227 basehttp 3568 10636 "GET / HTTP/1.1" 200 9101
+WARNING 2025-09-10 11:37:30,296 log 3568 10636 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:37:30,298 basehttp 3568 10636 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:37:30,300 basehttp 3568 14504 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:37:30,303 basehttp 3568 16776 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:37:30,424 basehttp 3568 16776 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:37:30,442 basehttp 3568 16776 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:38:26,451 basehttp 3568 16776 "GET / HTTP/1.1" 200 8834
+WARNING 2025-09-10 11:38:26,512 log 3568 16776 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:38:26,514 basehttp 3568 16776 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:38:26,515 basehttp 3568 14504 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:38:26,518 basehttp 3568 10636 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:38:26,633 basehttp 3568 10636 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:38:26,656 basehttp 3568 10636 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:41:01,264 basehttp 3568 10636 "GET / HTTP/1.1" 200 8834
+WARNING 2025-09-10 11:41:01,328 log 3568 10636 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:41:01,332 basehttp 3568 10636 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:41:01,334 basehttp 3568 14504 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:41:01,336 basehttp 3568 16776 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:41:01,472 basehttp 3568 16776 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:41:01,496 basehttp 3568 16776 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:41:36,398 basehttp 3568 16776 "GET / HTTP/1.1" 200 8864
+WARNING 2025-09-10 11:41:36,461 log 3568 16776 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:41:36,461 basehttp 3568 16776 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:41:36,466 basehttp 3568 14504 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:41:36,468 basehttp 3568 10636 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:41:36,589 basehttp 3568 10636 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:41:36,618 basehttp 3568 10636 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:41:43,605 basehttp 3568 10636 "GET /impressum/ HTTP/1.1" 200 6396
+WARNING 2025-09-10 11:41:43,668 log 3568 10636 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:41:43,673 basehttp 3568 10636 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:41:43,685 basehttp 3568 10636 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:41:43,787 basehttp 3568 10636 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:41:52,479 basehttp 3568 10636 "GET / HTTP/1.1" 200 8864
+WARNING 2025-09-10 11:41:52,549 log 3568 10636 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:41:52,550 basehttp 3568 10636 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:41:52,554 basehttp 3568 10636 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:41:52,570 basehttp 3568 10636 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:41:52,658 basehttp 3568 10636 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:51:41,625 basehttp 3568 7104 "GET / HTTP/1.1" 200 8862
+WARNING 2025-09-10 11:51:41,682 log 3568 7104 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:51:41,682 basehttp 3568 7104 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:51:41,684 basehttp 3568 9748 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:51:41,688 basehttp 3568 7104 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:51:41,805 basehttp 3568 7104 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:51:41,829 basehttp 3568 7104 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:52:39,086 basehttp 3568 7104 "GET / HTTP/1.1" 200 8860
+WARNING 2025-09-10 11:52:39,157 log 3568 7104 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:52:39,158 basehttp 3568 7104 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:52:39,160 basehttp 3568 9748 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:52:39,162 basehttp 3568 10820 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:52:39,282 basehttp 3568 10820 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:52:39,303 basehttp 3568 10820 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:53:01,587 basehttp 3568 10820 "GET / HTTP/1.1" 200 8865
+WARNING 2025-09-10 11:53:01,642 log 3568 10820 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:53:01,643 basehttp 3568 10820 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:53:01,645 basehttp 3568 9748 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:53:01,648 basehttp 3568 10820 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:53:01,798 basehttp 3568 10820 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:53:01,862 basehttp 3568 10820 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:56:30,774 basehttp 3568 10820 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 11:56:30,842 log 3568 10820 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:56:30,843 basehttp 3568 10820 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:56:30,848 basehttp 3568 9748 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:56:30,851 basehttp 3568 10820 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:56:31,046 basehttp 3568 10820 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:56:31,067 basehttp 3568 10820 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:56:51,115 basehttp 3568 10820 "GET / HTTP/1.1" 200 9029
+WARNING 2025-09-10 11:56:51,209 log 3568 10820 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:56:51,211 basehttp 3568 10820 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:56:51,211 basehttp 3568 9748 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:56:51,214 basehttp 3568 7104 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:56:51,330 basehttp 3568 7104 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:56:51,346 basehttp 3568 7104 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:57:11,852 basehttp 3568 7104 "GET / HTTP/1.1" 200 9008
+WARNING 2025-09-10 11:57:11,931 log 3568 9748 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:57:11,934 basehttp 3568 9748 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:57:11,935 basehttp 3568 7104 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:57:11,937 basehttp 3568 10820 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:57:12,075 basehttp 3568 10820 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:57:12,102 basehttp 3568 10820 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:58:15,332 basehttp 3568 10820 "GET / HTTP/1.1" 200 8887
+WARNING 2025-09-10 11:58:15,394 log 3568 10820 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:58:15,398 basehttp 3568 10820 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:58:15,401 basehttp 3568 7104 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:58:15,405 basehttp 3568 9748 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:58:15,745 basehttp 3568 9748 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:58:15,767 basehttp 3568 9748 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 11:59:01,216 basehttp 3568 9748 "GET / HTTP/1.1" 200 8936
+WARNING 2025-09-10 11:59:01,283 log 3568 9748 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 11:59:01,289 basehttp 3568 9748 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 11:59:01,292 basehttp 3568 7104 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 11:59:01,294 basehttp 3568 10820 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 11:59:01,458 basehttp 3568 10820 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 11:59:01,485 basehttp 3568 10820 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 12:20:55,661 basehttp 3568 6688 "GET / HTTP/1.1" 200 8936
+WARNING 2025-09-10 12:20:55,779 log 3568 9604 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+INFO 2025-09-10 12:20:55,779 basehttp 3568 6688 "GET /static/css/style.css HTTP/1.1" 200 28704
+WARNING 2025-09-10 12:20:55,814 basehttp 3568 9604 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:20:55,828 basehttp 3568 14424 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 12:20:55,987 basehttp 3568 14424 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:20:56,006 basehttp 3568 14424 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 12:21:11,894 basehttp 3568 14424 "GET / HTTP/1.1" 200 8936
+WARNING 2025-09-10 12:21:11,973 log 3568 14424 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:21:11,974 basehttp 3568 14424 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:21:11,975 basehttp 3568 6688 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 12:21:11,978 basehttp 3568 9604 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 12:21:12,046 basehttp 3568 9604 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:21:12,066 basehttp 3568 9604 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 12:21:29,426 basehttp 3568 9604 "GET / HTTP/1.1" 200 8940
+INFO 2025-09-10 12:21:29,502 basehttp 3568 9604 "GET /static/css/style.css HTTP/1.1" 200 28704
+WARNING 2025-09-10 12:21:29,515 log 3568 6688 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:21:29,516 basehttp 3568 6688 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:21:29,518 basehttp 3568 14424 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 12:21:29,608 basehttp 3568 14424 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:21:29,635 basehttp 3568 14424 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 12:21:34,537 basehttp 3568 14424 "GET / HTTP/1.1" 200 8940
+INFO 2025-09-10 12:21:34,606 basehttp 3568 14424 "GET /static/css/style.css HTTP/1.1" 200 28704
+WARNING 2025-09-10 12:21:34,616 log 3568 6688 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:21:34,618 basehttp 3568 6688 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:21:34,622 basehttp 3568 9604 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 12:21:34,665 basehttp 3568 9604 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:21:34,689 basehttp 3568 9604 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 12:22:19,824 basehttp 3568 9604 "GET / HTTP/1.1" 200 8941
+WARNING 2025-09-10 12:22:19,956 log 3568 9604 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:22:19,958 basehttp 3568 9604 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:22:19,962 basehttp 3568 6688 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 12:22:19,963 basehttp 3568 14424 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 12:22:20,080 basehttp 3568 14424 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:22:20,102 basehttp 3568 14424 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 12:23:01,641 basehttp 3568 14424 "GET / HTTP/1.1" 200 8955
+INFO 2025-09-10 12:23:01,723 basehttp 3568 14424 "GET /static/css/style.css HTTP/1.1" 200 28704
+WARNING 2025-09-10 12:23:01,733 log 3568 6688 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:23:01,734 basehttp 3568 6688 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:23:01,736 basehttp 3568 9604 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 12:23:01,795 basehttp 3568 9604 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:23:01,811 basehttp 3568 9604 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 12:23:22,148 basehttp 3568 9604 "GET / HTTP/1.1" 200 8955
+WARNING 2025-09-10 12:23:22,214 log 3568 9604 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:23:22,216 basehttp 3568 9604 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:23:22,216 basehttp 3568 6688 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 12:23:22,218 basehttp 3568 14424 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 12:23:22,281 basehttp 3568 14424 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:23:22,307 basehttp 3568 14424 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 12:25:22,923 basehttp 3568 14424 "GET / HTTP/1.1" 200 8955
+WARNING 2025-09-10 12:25:23,017 log 3568 9604 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:25:23,018 basehttp 3568 9604 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:25:23,019 basehttp 3568 14424 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 12:25:23,020 basehttp 3568 6688 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 12:25:23,209 basehttp 3568 6688 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:25:26,263 basehttp 3568 6688 "GET /about/ HTTP/1.1" 200 14013
+WARNING 2025-09-10 12:25:26,335 log 3568 6688 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:25:26,336 basehttp 3568 6688 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:25:26,340 basehttp 3568 14424 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 12:25:26,362 basehttp 3568 14424 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 12:25:26,420 basehttp 3568 14424 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:25:48,623 basehttp 3568 14424 "GET /skills/ HTTP/1.1" 200 7669
+WARNING 2025-09-10 12:25:48,702 log 3568 14424 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:25:48,707 basehttp 3568 14424 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:25:48,708 basehttp 3568 6688 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 12:25:48,804 basehttp 3568 6688 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:25:52,676 basehttp 3568 6688 "GET /contact/ HTTP/1.1" 200 11685
+WARNING 2025-09-10 12:25:52,750 log 3568 6688 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:25:52,751 basehttp 3568 6688 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:25:52,755 basehttp 3568 14424 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 12:25:52,827 basehttp 3568 14424 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:27:22,843 basehttp 3568 14424 "GET /about/ HTTP/1.1" 200 14013
+WARNING 2025-09-10 12:27:22,930 log 3568 14424 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:27:22,931 basehttp 3568 14424 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:27:22,934 basehttp 3568 6688 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 12:27:22,956 basehttp 3568 6688 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 12:27:23,057 basehttp 3568 6688 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:28:32,515 basehttp 3568 6688 "GET /about/ HTTP/1.1" 200 14013
+WARNING 2025-09-10 12:28:32,577 log 3568 6688 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:28:32,583 basehttp 3568 6688 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:28:32,588 basehttp 3568 14424 "GET /static/css/style.css HTTP/1.1" 200 28704
+INFO 2025-09-10 12:28:32,596 basehttp 3568 9604 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 12:28:32,687 basehttp 3568 9604 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:28:32,704 basehttp 3568 9604 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 12:29:26,332 basehttp 3568 9604 "GET /about/ HTTP/1.1" 200 14013
+WARNING 2025-09-10 12:29:26,396 log 3568 9604 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:29:26,398 basehttp 3568 9604 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:29:26,404 basehttp 3568 14424 "GET /static/css/style.css HTTP/1.1" 200 28706
+INFO 2025-09-10 12:29:26,410 basehttp 3568 6688 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 12:29:26,476 basehttp 3568 6688 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:29:26,495 basehttp 3568 6688 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 12:29:46,778 basehttp 3568 6688 "GET /skills/ HTTP/1.1" 200 7669
+WARNING 2025-09-10 12:29:46,849 log 3568 6688 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:29:46,852 basehttp 3568 6688 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:29:46,869 basehttp 3568 14424 "GET /static/css/style.css HTTP/1.1" 200 28706
+INFO 2025-09-10 12:29:46,959 basehttp 3568 14424 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:29:49,906 basehttp 3568 14424 "GET /about/ HTTP/1.1" 200 14013
+WARNING 2025-09-10 12:29:49,973 log 3568 14424 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:29:49,976 basehttp 3568 14424 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:29:49,979 basehttp 3568 6688 "GET /static/css/style.css HTTP/1.1" 200 28706
+INFO 2025-09-10 12:29:49,985 basehttp 3568 9604 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 12:29:50,068 basehttp 3568 9604 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:29:51,044 basehttp 3568 9604 "GET / HTTP/1.1" 200 8955
+WARNING 2025-09-10 12:29:51,121 log 3568 9604 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:29:51,122 basehttp 3568 9604 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:29:51,130 basehttp 3568 6688 "GET /static/css/style.css HTTP/1.1" 200 28706
+INFO 2025-09-10 12:29:51,133 basehttp 3568 9604 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 12:29:51,210 basehttp 3568 9604 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:29:54,078 basehttp 3568 9604 "GET /about/ HTTP/1.1" 200 14013
+WARNING 2025-09-10 12:29:54,158 log 3568 9604 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:29:54,159 basehttp 3568 9604 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:29:54,162 basehttp 3568 6688 "GET /static/css/style.css HTTP/1.1" 200 28706
+INFO 2025-09-10 12:29:54,174 basehttp 3568 9604 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 12:29:54,251 basehttp 3568 9604 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:31:33,883 basehttp 3568 9604 "GET /about/ HTTP/1.1" 200 14013
+INFO 2025-09-10 12:31:33,966 basehttp 3568 9604 "GET /static/css/style.css HTTP/1.1" 200 28901
+WARNING 2025-09-10 12:31:33,976 log 3568 14424 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:31:33,978 basehttp 3568 14424 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:31:33,982 basehttp 3568 6688 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 12:31:34,162 basehttp 3568 6688 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:31:36,172 basehttp 3568 6688 "GET /skills/ HTTP/1.1" 200 7669
+WARNING 2025-09-10 12:31:36,250 log 3568 6688 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:31:36,251 basehttp 3568 6688 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:31:36,258 basehttp 3568 6688 "GET /static/css/style.css HTTP/1.1" 200 28901
+INFO 2025-09-10 12:31:36,333 basehttp 3568 6688 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:31:40,545 basehttp 3568 6688 "GET /skills/ HTTP/1.1" 200 7669
+WARNING 2025-09-10 12:31:40,623 log 3568 6688 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:31:40,625 basehttp 3568 6688 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:31:40,626 basehttp 3568 14424 "GET /static/css/style.css HTTP/1.1" 200 28901
+INFO 2025-09-10 12:31:40,749 basehttp 3568 14424 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:31:40,849 basehttp 3568 14424 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 12:31:44,231 basehttp 3568 14424 "GET /about/ HTTP/1.1" 200 14013
+WARNING 2025-09-10 12:31:44,292 log 3568 14424 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:31:44,293 basehttp 3568 14424 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:31:44,313 basehttp 3568 14424 "GET /static/css/style.css HTTP/1.1" 200 28901
+INFO 2025-09-10 12:31:44,326 basehttp 3568 6688 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 12:31:44,401 basehttp 3568 6688 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:32:51,836 basehttp 3568 6688 "GET /about/ HTTP/1.1" 200 14013
+WARNING 2025-09-10 12:32:51,919 log 3568 6688 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+INFO 2025-09-10 12:32:51,923 basehttp 3568 14424 "GET /static/css/style.css HTTP/1.1" 200 28773
+WARNING 2025-09-10 12:32:51,924 basehttp 3568 6688 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:32:51,933 basehttp 3568 9604 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 12:32:52,020 basehttp 3568 9604 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:32:52,059 basehttp 3568 9604 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 12:33:12,724 basehttp 3568 9604 "GET /about/ HTTP/1.1" 200 14013
+WARNING 2025-09-10 12:33:12,796 log 3568 9604 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:33:12,804 basehttp 3568 9604 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:33:12,805 basehttp 3568 14424 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 12:33:12,816 basehttp 3568 6688 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 12:33:12,953 basehttp 3568 6688 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:33:12,976 basehttp 3568 6688 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 12:33:35,958 basehttp 3568 6688 "GET /skills/ HTTP/1.1" 200 7669
+WARNING 2025-09-10 12:33:36,034 log 3568 6688 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:33:36,035 basehttp 3568 6688 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:33:36,036 basehttp 3568 14424 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 12:33:36,157 basehttp 3568 14424 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:33:44,853 basehttp 3568 14424 "GET / HTTP/1.1" 200 8955
+WARNING 2025-09-10 12:33:44,921 log 3568 14424 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:33:44,922 basehttp 3568 14424 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:33:44,929 basehttp 3568 14424 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 12:33:44,937 basehttp 3568 14424 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 12:33:45,037 basehttp 3568 14424 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:33:47,045 basehttp 3568 14424 "GET /about/ HTTP/1.1" 200 14013
+WARNING 2025-09-10 12:33:47,115 log 3568 14424 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:33:47,115 basehttp 3568 14424 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:33:47,117 basehttp 3568 6688 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 12:33:47,128 basehttp 3568 6688 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 12:33:47,204 basehttp 3568 6688 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:33:58,172 basehttp 3568 6688 "GET /contact/ HTTP/1.1" 200 11685
+WARNING 2025-09-10 12:33:58,251 log 3568 6688 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:33:58,253 basehttp 3568 6688 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:33:58,256 basehttp 3568 14424 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 12:33:58,410 basehttp 3568 14424 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:41:58,540 basehttp 3568 17324 "GET /contact/ HTTP/1.1" 200 11685
+WARNING 2025-09-10 12:41:58,611 log 3568 17324 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:41:58,612 basehttp 3568 17324 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:41:58,613 basehttp 3568 16840 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 12:41:58,750 basehttp 3568 16840 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:41:58,779 basehttp 3568 16840 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 12:42:00,215 basehttp 3568 16840 "GET / HTTP/1.1" 200 8955
+WARNING 2025-09-10 12:42:00,272 log 3568 16840 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:42:00,273 basehttp 3568 16840 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:42:00,275 basehttp 3568 17324 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 12:42:00,283 basehttp 3568 4304 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 12:42:00,346 basehttp 3568 4304 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:42:02,186 basehttp 3568 4304 "GET /about/ HTTP/1.1" 200 14013
+WARNING 2025-09-10 12:42:02,250 log 3568 4304 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:42:02,250 basehttp 3568 4304 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:42:02,257 basehttp 3568 4304 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 12:42:02,270 basehttp 3568 17324 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 12:42:02,346 basehttp 3568 17324 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 12:42:05,381 basehttp 3568 17324 "GET /impressum/ HTTP/1.1" 200 6396
+WARNING 2025-09-10 12:42:05,438 log 3568 17324 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:42:05,439 basehttp 3568 17324 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:42:05,440 basehttp 3568 4304 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 12:42:05,515 basehttp 3568 4304 "GET /static/js/main.js HTTP/1.1" 200 1086
+WARNING 2025-09-10 12:42:13,504 log 3568 4304 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:42:13,504 basehttp 3568 4304 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+WARNING 2025-09-10 12:42:13,600 log 3568 4304 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:42:13,602 basehttp 3568 4304 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:42:14,723 basehttp 3568 4304 "GET /contact/ HTTP/1.1" 200 11685
+WARNING 2025-09-10 12:42:14,779 log 3568 4304 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 12:42:14,780 basehttp 3568 4304 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 12:42:14,789 basehttp 3568 4304 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 12:42:14,867 basehttp 3568 4304 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:05:14,737 basehttp 3568 2324 "GET /contact/ HTTP/1.1" 200 11679
+INFO 2025-09-10 14:05:14,821 basehttp 3568 2324 "GET /static/css/style.css HTTP/1.1" 200 28693
+WARNING 2025-09-10 14:05:14,830 log 3568 12008 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:05:14,831 basehttp 3568 12008 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:05:14,926 basehttp 3568 12008 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:05:14,950 basehttp 3568 12008 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 14:05:28,651 basehttp 3568 12008 "GET /contact/ HTTP/1.1" 200 11679
+WARNING 2025-09-10 14:05:28,733 log 3568 12008 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:05:28,735 basehttp 3568 12008 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:05:28,735 basehttp 3568 2324 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 14:05:28,801 basehttp 3568 2324 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:05:28,827 basehttp 3568 2324 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 14:06:40,923 basehttp 3568 2324 "GET /contact/ HTTP/1.1" 200 11685
+WARNING 2025-09-10 14:06:41,004 log 3568 2324 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:06:41,005 basehttp 3568 2324 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:06:41,006 basehttp 3568 12008 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 14:06:41,123 basehttp 3568 12008 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:06:41,146 basehttp 3568 12008 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 14:06:43,071 basehttp 3568 12008 "GET /privacy/ HTTP/1.1" 200 6104
+WARNING 2025-09-10 14:06:43,139 log 3568 12008 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:06:43,140 basehttp 3568 12008 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:06:43,144 basehttp 3568 2324 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 14:06:43,228 basehttp 3568 2324 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:07:43,004 basehttp 3568 2324 "GET /privacy/ HTTP/1.1" 200 6111
+WARNING 2025-09-10 14:07:43,089 log 3568 2324 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:07:43,091 basehttp 3568 2324 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:07:43,092 basehttp 3568 12008 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 14:07:43,187 basehttp 3568 12008 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:07:43,202 basehttp 3568 12008 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 14:10:09,781 basehttp 3568 12008 "GET /impressum/ HTTP/1.1" 200 6451
+WARNING 2025-09-10 14:10:09,854 log 3568 2324 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+INFO 2025-09-10 14:10:09,855 basehttp 3568 12008 "GET /static/css/style.css HTTP/1.1" 200 28693
+WARNING 2025-09-10 14:10:09,867 basehttp 3568 2324 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:10:10,039 basehttp 3568 2324 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:10:12,044 basehttp 3568 2324 "GET /privacy/ HTTP/1.1" 200 6159
+WARNING 2025-09-10 14:10:12,099 log 3568 2324 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:10:12,100 basehttp 3568 2324 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:10:12,103 basehttp 3568 2324 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 14:10:12,171 basehttp 3568 2324 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:10:14,648 basehttp 3568 2324 "GET /privacy/ HTTP/1.1" 200 6159
+WARNING 2025-09-10 14:10:14,704 log 3568 2324 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:10:14,709 basehttp 3568 2324 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:10:14,717 basehttp 3568 12008 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 14:10:14,775 basehttp 3568 12008 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:10:14,791 basehttp 3568 12008 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 14:10:43,597 basehttp 3568 12008 "GET /privacy/ HTTP/1.1" 200 6176
+WARNING 2025-09-10 14:10:43,650 log 3568 12008 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:10:43,652 basehttp 3568 12008 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:10:43,652 basehttp 3568 2324 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 14:10:43,755 basehttp 3568 2324 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:10:43,770 basehttp 3568 2324 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 14:11:32,125 basehttp 3568 2324 "GET / HTTP/1.1" 200 9027
+WARNING 2025-09-10 14:11:38,791 log 3568 2324 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:11:38,792 basehttp 3568 2324 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:11:53,548 basehttp 3568 2324 "GET /privacy/ HTTP/1.1" 200 6176
+INFO 2025-09-10 14:11:53,611 basehttp 3568 2324 "GET /static/css/style.css HTTP/1.1" 200 28693
+WARNING 2025-09-10 14:11:53,630 log 3568 2324 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:11:53,634 basehttp 3568 2324 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:11:53,687 basehttp 3568 2324 "GET /static/js/main.js HTTP/1.1" 200 1086
+WARNING 2025-09-10 14:11:56,812 log 3568 2324 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:11:56,813 basehttp 3568 2324 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+WARNING 2025-09-10 14:11:56,876 log 3568 2324 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:11:56,877 basehttp 3568 2324 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:13:07,512 basehttp 3568 2324 "GET / HTTP/1.1" 200 9046
+WARNING 2025-09-10 14:13:07,576 log 3568 2324 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:13:07,580 basehttp 3568 2324 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:13:07,583 basehttp 3568 12008 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 14:13:07,589 basehttp 3568 12008 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:13:07,690 basehttp 3568 12008 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:13:07,708 basehttp 3568 12008 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 14:13:38,056 basehttp 3568 12008 "GET / HTTP/1.1" 200 9057
+WARNING 2025-09-10 14:13:38,124 log 3568 12008 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:13:38,126 basehttp 3568 12008 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:13:38,128 basehttp 3568 2324 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 14:13:38,130 basehttp 3568 8956 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:13:38,263 basehttp 3568 8956 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:13:38,308 basehttp 3568 8956 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 14:14:20,317 basehttp 3568 8956 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:14:20,450 log 3568 8956 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+INFO 2025-09-10 14:14:20,452 basehttp 3568 2324 "GET /static/css/style.css HTTP/1.1" 200 28693
+WARNING 2025-09-10 14:14:20,454 basehttp 3568 8956 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:14:20,456 basehttp 3568 12008 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:14:20,637 basehttp 3568 12008 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:14:20,656 basehttp 3568 12008 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 14:18:04,515 basehttp 3568 12008 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:18:04,594 log 3568 2324 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:18:04,595 basehttp 3568 2324 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:18:04,596 basehttp 3568 12008 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 14:18:04,598 basehttp 3568 8956 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:18:04,669 basehttp 3568 8956 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:18:04,693 basehttp 3568 8956 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 14:18:08,001 basehttp 3568 8956 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:18:08,067 log 3568 8956 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:18:08,069 basehttp 3568 8956 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:18:08,070 basehttp 3568 12008 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 14:18:08,072 basehttp 3568 2324 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:18:08,177 basehttp 3568 2324 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:18:09,996 basehttp 3568 2324 "GET /about/ HTTP/1.1" 200 14031
+WARNING 2025-09-10 14:18:10,067 log 3568 2324 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:18:10,068 basehttp 3568 2324 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:18:10,069 basehttp 3568 12008 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 14:18:10,088 basehttp 3568 12008 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 14:18:10,234 basehttp 3568 12008 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:24:21,769 basehttp 3568 17952 "GET /about/ HTTP/1.1" 200 14031
+WARNING 2025-09-10 14:24:21,841 log 3568 17952 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:24:21,846 basehttp 3568 17952 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:24:21,849 basehttp 3568 15540 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 14:24:21,859 basehttp 3568 8036 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 14:24:21,982 basehttp 3568 8036 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:24:29,577 basehttp 3568 8036 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:24:29,645 log 3568 8036 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:24:29,646 basehttp 3568 8036 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:24:29,650 basehttp 3568 15540 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 14:24:29,664 basehttp 3568 15540 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:24:29,780 basehttp 3568 15540 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:44:31,819 basehttp 3568 6472 "GET / HTTP/1.1" 200 8973
+INFO 2025-09-10 14:44:31,905 basehttp 3568 6472 "GET /static/css/style.css HTTP/1.1" 200 28693
+INFO 2025-09-10 14:44:31,907 basehttp 3568 4752 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+WARNING 2025-09-10 14:44:31,920 log 3568 2364 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:44:31,922 basehttp 3568 2364 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:44:32,077 basehttp 3568 2364 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:50:16,863 basehttp 3568 17912 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:50:16,930 log 3568 17912 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:50:16,932 basehttp 3568 17912 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:50:16,944 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 28697
+INFO 2025-09-10 14:50:16,948 basehttp 3568 17912 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:50:17,093 basehttp 3568 17912 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:50:23,714 basehttp 3568 17912 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:50:23,787 log 3568 17912 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:50:23,790 basehttp 3568 17912 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:50:23,791 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 28697
+INFO 2025-09-10 14:50:23,794 basehttp 3568 1808 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:50:23,880 basehttp 3568 1808 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:54:17,723 basehttp 3568 1808 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:54:17,804 log 3568 1808 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:54:17,805 basehttp 3568 1808 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:54:17,806 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 29591
+INFO 2025-09-10 14:54:17,808 basehttp 3568 17912 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:54:18,089 basehttp 3568 17912 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:54:18,118 basehttp 3568 17912 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 14:55:18,543 basehttp 3568 17912 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:55:18,603 log 3568 17912 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:55:18,604 basehttp 3568 17912 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:55:18,612 basehttp 3568 17912 "GET /static/css/style.css HTTP/1.1" 200 29591
+INFO 2025-09-10 14:55:18,616 basehttp 3568 17384 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:55:18,695 basehttp 3568 17384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:55:18,713 basehttp 3568 17384 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 14:55:21,426 basehttp 3568 17384 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:55:21,489 log 3568 17384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:55:21,490 basehttp 3568 17384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:55:21,520 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 29591
+INFO 2025-09-10 14:55:21,526 basehttp 3568 17912 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:55:21,572 basehttp 3568 17912 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:55:24,237 basehttp 3568 17912 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:55:24,300 log 3568 17912 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:55:24,300 basehttp 3568 17912 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:55:24,307 basehttp 3568 17912 "GET /static/css/style.css HTTP/1.1" 200 29591
+INFO 2025-09-10 14:55:24,313 basehttp 3568 17384 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:55:24,385 basehttp 3568 17384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:55:33,333 basehttp 3568 17384 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:55:33,402 log 3568 17384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:55:33,404 basehttp 3568 17384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:55:33,406 basehttp 3568 17912 "GET /static/css/style.css HTTP/1.1" 200 29591
+INFO 2025-09-10 14:55:33,410 basehttp 3568 1808 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:55:33,506 basehttp 3568 1808 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:55:37,941 basehttp 3568 1808 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:55:38,028 log 3568 1808 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:55:38,033 basehttp 3568 1808 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:55:38,036 basehttp 3568 17912 "GET /static/css/style.css HTTP/1.1" 200 29591
+INFO 2025-09-10 14:55:38,039 basehttp 3568 17384 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:55:38,136 basehttp 3568 17384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:56:34,896 basehttp 3568 17384 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:56:34,966 log 3568 17384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:56:34,967 basehttp 3568 17384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:56:34,977 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 29798
+INFO 2025-09-10 14:56:34,982 basehttp 3568 17912 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:56:35,057 basehttp 3568 17912 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:56:35,077 basehttp 3568 17912 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 14:56:38,785 basehttp 3568 17912 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:56:38,840 log 3568 17912 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:56:38,842 basehttp 3568 17912 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:56:38,850 basehttp 3568 17912 "GET /static/css/style.css HTTP/1.1" 200 29798
+INFO 2025-09-10 14:56:38,855 basehttp 3568 17384 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:56:38,932 basehttp 3568 17384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:57:41,158 basehttp 3568 17384 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:57:41,217 log 3568 17384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:57:41,218 basehttp 3568 17384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:57:41,229 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 29408
+INFO 2025-09-10 14:57:41,232 basehttp 3568 17912 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:57:41,321 basehttp 3568 17912 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:57:41,350 basehttp 3568 17912 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 14:57:59,939 basehttp 3568 17912 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:57:59,998 log 3568 17912 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:57:59,999 basehttp 3568 17912 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:58:00,007 basehttp 3568 17912 "GET /static/css/style.css HTTP/1.1" 200 29798
+INFO 2025-09-10 14:58:00,012 basehttp 3568 17384 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:58:00,107 basehttp 3568 17384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:58:00,129 basehttp 3568 17384 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 14:58:04,838 basehttp 3568 17384 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:58:04,916 log 3568 1808 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:58:04,917 basehttp 3568 1808 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:58:04,917 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 29798
+INFO 2025-09-10 14:58:04,919 basehttp 3568 17912 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:58:05,004 basehttp 3568 17912 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:58:18,433 basehttp 3568 17912 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:58:18,508 log 3568 17912 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:58:18,509 basehttp 3568 17912 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:58:18,522 basehttp 3568 17912 "GET /static/css/style.css HTTP/1.1" 200 29798
+INFO 2025-09-10 14:58:18,529 basehttp 3568 1808 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:58:18,695 basehttp 3568 1808 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:59:12,917 basehttp 3568 1808 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:59:13,040 log 3568 1808 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+INFO 2025-09-10 14:59:13,044 basehttp 3568 17912 "GET /static/css/style.css HTTP/1.1" 200 29607
+WARNING 2025-09-10 14:59:13,045 basehttp 3568 1808 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:59:13,049 basehttp 3568 17384 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:59:13,171 basehttp 3568 17384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:59:13,208 basehttp 3568 17384 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 14:59:16,264 basehttp 3568 17384 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:59:16,340 log 3568 17384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:59:16,344 basehttp 3568 17384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:59:16,358 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 29607
+INFO 2025-09-10 14:59:16,366 basehttp 3568 1808 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:59:16,468 basehttp 3568 1808 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:59:20,290 basehttp 3568 1808 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:59:20,347 log 3568 1808 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:59:20,348 basehttp 3568 1808 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:59:20,363 basehttp 3568 1808 "GET /static/css/style.css HTTP/1.1" 200 29607
+INFO 2025-09-10 14:59:20,370 basehttp 3568 17384 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:59:20,433 basehttp 3568 17384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 14:59:25,622 basehttp 3568 17384 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 14:59:25,694 log 3568 17384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 14:59:25,694 basehttp 3568 17384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 14:59:25,706 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 29607
+INFO 2025-09-10 14:59:25,708 basehttp 3568 1808 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 14:59:25,796 basehttp 3568 1808 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:02:30,568 basehttp 3568 1808 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 15:02:30,641 log 3568 1808 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:02:30,648 basehttp 3568 1808 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:02:30,652 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 29877
+INFO 2025-09-10 15:02:30,655 basehttp 3568 17912 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:02:30,838 basehttp 3568 17912 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:02:30,868 basehttp 3568 17912 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:02:55,333 basehttp 3568 17912 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 15:02:55,395 log 3568 17912 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:02:55,396 basehttp 3568 17912 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:02:55,405 basehttp 3568 17912 "GET /static/css/style.css HTTP/1.1" 200 29738
+INFO 2025-09-10 15:02:55,412 basehttp 3568 17384 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:02:55,500 basehttp 3568 17384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:02:55,528 basehttp 3568 17384 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:03:02,718 basehttp 3568 17384 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 15:03:02,780 log 3568 17384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:03:02,781 basehttp 3568 17384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:03:02,790 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 29738
+INFO 2025-09-10 15:03:02,798 basehttp 3568 17912 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:03:02,895 basehttp 3568 17912 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:03:02,914 basehttp 3568 17912 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:03:27,772 basehttp 3568 17912 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 15:03:27,838 log 3568 17912 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:03:27,839 basehttp 3568 17912 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:03:27,846 basehttp 3568 17912 "GET /static/css/style.css HTTP/1.1" 200 29798
+INFO 2025-09-10 15:03:27,851 basehttp 3568 17384 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:03:27,913 basehttp 3568 17384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:03:27,932 basehttp 3568 17384 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:03:30,540 basehttp 3568 17384 "GET / HTTP/1.1" 200 8973
+WARNING 2025-09-10 15:03:30,603 log 3568 17384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:03:30,603 basehttp 3568 17384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:03:30,613 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 29798
+INFO 2025-09-10 15:03:30,621 basehttp 3568 17912 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:03:30,699 basehttp 3568 17912 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:04:31,015 basehttp 3568 17912 "GET / HTTP/1.1" 200 8397
+WARNING 2025-09-10 15:04:31,078 log 3568 17912 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:04:31,080 basehttp 3568 17912 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:04:31,083 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 29798
+INFO 2025-09-10 15:04:31,088 basehttp 3568 1808 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:04:31,203 basehttp 3568 1808 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:04:31,223 basehttp 3568 1808 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:07:02,374 basehttp 3568 1808 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:07:02,441 log 3568 1808 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:07:02,442 basehttp 3568 1808 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:07:02,453 basehttp 3568 1808 "GET /static/css/style.css HTTP/1.1" 200 29617
+INFO 2025-09-10 15:07:02,457 basehttp 3568 17384 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:07:02,570 basehttp 3568 17384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:07:02,592 basehttp 3568 17384 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:07:05,359 basehttp 3568 17384 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:07:05,412 log 3568 17384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:07:05,414 basehttp 3568 17384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:07:05,422 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 29617
+INFO 2025-09-10 15:07:05,429 basehttp 3568 1808 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:07:05,509 basehttp 3568 1808 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:07:07,630 basehttp 3568 1808 "GET /about/ HTTP/1.1" 200 14036
+WARNING 2025-09-10 15:07:07,702 log 3568 1808 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:07:07,703 basehttp 3568 1808 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:07:07,712 basehttp 3568 1808 "GET /static/css/style.css HTTP/1.1" 200 29617
+INFO 2025-09-10 15:07:07,746 basehttp 3568 1808 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 15:07:07,823 basehttp 3568 1808 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:07:09,875 basehttp 3568 1808 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:07:09,934 log 3568 1808 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:07:09,935 basehttp 3568 1808 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:07:09,938 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 29617
+INFO 2025-09-10 15:07:09,958 basehttp 3568 17384 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:07:10,025 basehttp 3568 17384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:07:12,537 basehttp 3568 17384 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:07:12,621 log 3568 17384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:07:12,625 basehttp 3568 17384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:07:12,637 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 29617
+INFO 2025-09-10 15:07:12,645 basehttp 3568 1808 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:07:12,765 basehttp 3568 1808 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:08:09,535 basehttp 3568 1808 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:08:09,599 log 3568 1808 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:08:09,600 basehttp 3568 1808 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:08:09,615 basehttp 3568 1808 "GET /static/css/style.css HTTP/1.1" 200 29798
+INFO 2025-09-10 15:08:09,627 basehttp 3568 17384 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:08:09,917 basehttp 3568 17384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:08:09,938 basehttp 3568 17384 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:08:52,737 basehttp 3568 17384 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:08:52,803 log 3568 17384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:08:52,804 basehttp 3568 17384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:08:52,811 basehttp 3568 1808 "GET /static/css/style.css HTTP/1.1" 200 29619
+INFO 2025-09-10 15:08:52,818 basehttp 3568 17384 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:08:52,912 basehttp 3568 17384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:08:52,929 basehttp 3568 17384 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:08:56,678 basehttp 3568 17384 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:08:56,742 log 3568 17384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:08:56,744 basehttp 3568 17384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:08:56,750 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 29619
+INFO 2025-09-10 15:08:56,753 basehttp 3568 1808 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:08:56,832 basehttp 3568 1808 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:08:58,353 basehttp 3568 1808 "GET /skills/ HTTP/1.1" 200 7692
+WARNING 2025-09-10 15:08:58,421 log 3568 1808 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:08:58,421 basehttp 3568 1808 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:08:58,437 basehttp 3568 1808 "GET /static/css/style.css HTTP/1.1" 200 29619
+INFO 2025-09-10 15:08:58,541 basehttp 3568 1808 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:09:04,082 basehttp 3568 1808 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:09:04,135 log 3568 1808 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:09:04,136 basehttp 3568 1808 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:09:04,149 basehttp 3568 1808 "GET /static/css/style.css HTTP/1.1" 200 29619
+INFO 2025-09-10 15:09:04,178 basehttp 3568 1808 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:09:04,259 basehttp 3568 1808 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:12:55,636 basehttp 3568 1808 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:12:55,714 log 3568 1808 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:12:55,720 basehttp 3568 1808 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:12:55,720 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 29661
+INFO 2025-09-10 15:12:55,725 basehttp 3568 10204 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:12:55,814 basehttp 3568 10204 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:12:55,835 basehttp 3568 10204 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:13:00,428 basehttp 3568 10204 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:13:00,487 log 3568 10204 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:13:00,488 basehttp 3568 10204 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:13:00,493 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 29661
+INFO 2025-09-10 15:13:00,498 basehttp 3568 1808 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:13:00,581 basehttp 3568 1808 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:13:04,063 basehttp 3568 1808 "GET /about/ HTTP/1.1" 200 14036
+WARNING 2025-09-10 15:13:04,134 log 3568 1808 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:13:04,135 basehttp 3568 1808 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:13:04,139 basehttp 3568 1808 "GET /static/css/style.css HTTP/1.1" 200 29661
+INFO 2025-09-10 15:13:04,164 basehttp 3568 1808 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 15:13:04,267 basehttp 3568 1808 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:13:40,533 basehttp 3568 1808 "GET /about/ HTTP/1.1" 200 14036
+WARNING 2025-09-10 15:13:40,594 log 3568 1808 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:13:40,597 basehttp 3568 1808 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:13:40,598 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 29689
+INFO 2025-09-10 15:13:40,619 basehttp 3568 17384 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 15:13:40,705 basehttp 3568 17384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:13:40,732 basehttp 3568 17384 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:13:43,847 basehttp 3568 17384 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:13:43,908 log 3568 17384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:13:43,908 basehttp 3568 17384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:13:43,913 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 29689
+INFO 2025-09-10 15:13:43,939 basehttp 3568 17384 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:13:44,037 basehttp 3568 17384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:15:51,425 basehttp 3568 17384 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:15:51,499 log 3568 1808 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:15:51,501 basehttp 3568 1808 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:15:51,502 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 28154
+INFO 2025-09-10 15:15:51,504 basehttp 3568 10204 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:15:51,630 basehttp 3568 10204 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:15:51,650 basehttp 3568 10204 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:15:56,828 basehttp 3568 10204 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:15:56,886 log 3568 10204 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:15:56,887 basehttp 3568 10204 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:15:56,894 basehttp 3568 10204 "GET /static/css/style.css HTTP/1.1" 200 28154
+INFO 2025-09-10 15:15:56,905 basehttp 3568 17384 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:15:57,055 basehttp 3568 17384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:16:02,817 basehttp 3568 17384 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:16:02,877 log 3568 17384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:16:02,878 basehttp 3568 17384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:16:02,889 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 28154
+INFO 2025-09-10 15:16:02,894 basehttp 3568 10204 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:16:02,987 basehttp 3568 10204 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:17:36,554 basehttp 3568 10204 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:17:36,622 log 3568 10204 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:17:36,624 basehttp 3568 10204 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:17:36,625 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 28243
+INFO 2025-09-10 15:17:36,633 basehttp 3568 1808 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:17:36,732 basehttp 3568 1808 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:17:36,751 basehttp 3568 1808 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:17:41,274 basehttp 3568 1808 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:17:41,334 log 3568 1808 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:17:41,336 basehttp 3568 1808 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:17:41,338 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 28243
+INFO 2025-09-10 15:17:41,342 basehttp 3568 10204 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:17:41,405 basehttp 3568 10204 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:17:57,435 basehttp 3568 10204 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:17:57,494 log 3568 10204 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:17:57,495 basehttp 3568 10204 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:17:57,500 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 28156
+INFO 2025-09-10 15:17:57,504 basehttp 3568 10204 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:17:57,571 basehttp 3568 10204 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:17:57,589 basehttp 3568 10204 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:18:04,685 basehttp 3568 10204 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:18:04,748 log 3568 10204 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:18:04,749 basehttp 3568 10204 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:18:04,763 basehttp 3568 10204 "GET /static/css/style.css HTTP/1.1" 200 28156
+INFO 2025-09-10 15:18:04,766 basehttp 3568 17384 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:18:04,827 basehttp 3568 17384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:18:06,716 basehttp 3568 17384 "GET /about/ HTTP/1.1" 200 14036
+WARNING 2025-09-10 15:18:06,778 log 3568 17384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:18:06,780 basehttp 3568 17384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:18:06,790 basehttp 3568 17384 "GET /static/css/style.css HTTP/1.1" 200 28156
+INFO 2025-09-10 15:18:06,818 basehttp 3568 17384 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 15:18:06,876 basehttp 3568 17384 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:18:08,732 basehttp 3568 17384 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:18:08,795 log 3568 17384 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:18:08,796 basehttp 3568 17384 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:18:08,799 basehttp 3568 10204 "GET /static/css/style.css HTTP/1.1" 200 28156
+INFO 2025-09-10 15:18:08,813 basehttp 3568 10204 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:18:08,874 basehttp 3568 10204 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:22:16,779 basehttp 3568 15300 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:22:16,849 log 3568 15300 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:22:16,855 basehttp 3568 15300 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:22:16,857 basehttp 3568 11424 "GET /static/css/style.css HTTP/1.1" 200 26580
+INFO 2025-09-10 15:22:16,864 basehttp 3568 15224 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:22:17,028 basehttp 3568 15224 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:22:17,054 basehttp 3568 15224 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:22:45,590 basehttp 3568 15224 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:22:45,646 log 3568 15224 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:22:45,647 basehttp 3568 15224 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:22:45,657 basehttp 3568 15224 "GET /static/css/style.css HTTP/1.1" 200 28906
+INFO 2025-09-10 15:22:45,660 basehttp 3568 11424 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:22:45,745 basehttp 3568 11424 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:22:45,763 basehttp 3568 11424 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:22:47,915 basehttp 3568 11424 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:22:47,961 log 3568 11424 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:22:47,962 basehttp 3568 11424 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:22:47,973 basehttp 3568 11424 "GET /static/css/style.css HTTP/1.1" 200 28906
+INFO 2025-09-10 15:22:47,982 basehttp 3568 11424 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:22:48,047 basehttp 3568 11424 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:22:48,066 basehttp 3568 11424 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:22:51,087 basehttp 3568 11424 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:22:51,150 log 3568 11424 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:22:51,151 basehttp 3568 11424 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:22:51,152 basehttp 3568 15224 "GET /static/css/style.css HTTP/1.1" 200 28906
+INFO 2025-09-10 15:22:51,156 basehttp 3568 15300 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:22:51,238 basehttp 3568 15300 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:22:51,257 basehttp 3568 15300 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:22:55,371 basehttp 3568 15300 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:22:55,431 log 3568 15300 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:22:55,433 basehttp 3568 15300 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:22:55,435 basehttp 3568 15224 "GET /static/css/style.css HTTP/1.1" 200 28906
+INFO 2025-09-10 15:22:55,437 basehttp 3568 11424 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:22:55,608 basehttp 3568 11424 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:22:55,630 basehttp 3568 11424 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:22:55,703 basehttp 3568 11424 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:22:55,764 log 3568 11424 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:22:55,765 basehttp 3568 11424 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:22:55,766 basehttp 3568 15224 "GET /static/css/style.css HTTP/1.1" 200 28906
+INFO 2025-09-10 15:22:55,839 basehttp 3568 15224 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:22:55,892 log 3568 15224 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:22:55,893 basehttp 3568 15224 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:22:55,916 basehttp 3568 15224 "GET /static/css/style.css HTTP/1.1" 200 28906
+INFO 2025-09-10 15:22:55,922 basehttp 3568 11424 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:22:56,016 basehttp 3568 11424 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:22:56,046 basehttp 3568 11424 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:23:20,199 basehttp 3568 11424 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:23:20,263 log 3568 11424 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:23:20,264 basehttp 3568 11424 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:23:20,266 basehttp 3568 15224 "GET /static/css/style.css HTTP/1.1" 200 29689
+INFO 2025-09-10 15:23:20,271 basehttp 3568 11424 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:23:20,356 basehttp 3568 11424 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:23:20,377 basehttp 3568 11424 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:24:21,691 basehttp 3568 11424 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:24:21,808 log 3568 11424 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+INFO 2025-09-10 15:24:21,810 basehttp 3568 15224 "GET /static/css/style.css HTTP/1.1" 200 30157
+INFO 2025-09-10 15:24:21,812 basehttp 3568 15300 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+WARNING 2025-09-10 15:24:21,827 basehttp 3568 11424 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:24:21,996 basehttp 3568 15300 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:24:22,014 basehttp 3568 15300 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:24:24,897 basehttp 3568 15300 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:24:24,954 log 3568 15300 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:24:24,954 basehttp 3568 15300 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:24:24,963 basehttp 3568 15300 "GET /static/css/style.css HTTP/1.1" 200 30157
+INFO 2025-09-10 15:24:24,965 basehttp 3568 11424 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:24:25,038 basehttp 3568 11424 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:24:31,773 basehttp 3568 11424 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:24:31,836 log 3568 11424 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:24:31,837 basehttp 3568 11424 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:24:31,846 basehttp 3568 11424 "GET /static/css/style.css HTTP/1.1" 200 30157
+INFO 2025-09-10 15:24:31,850 basehttp 3568 15300 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:24:31,929 basehttp 3568 15300 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:24:31,947 basehttp 3568 15300 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:24:32,547 basehttp 3568 15300 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:24:32,611 log 3568 15300 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:24:32,612 basehttp 3568 15300 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:24:32,616 basehttp 3568 11424 "GET /static/css/style.css HTTP/1.1" 200 30157
+INFO 2025-09-10 15:24:32,623 basehttp 3568 11424 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:24:32,816 basehttp 3568 11424 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:24:32,849 basehttp 3568 11424 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:24:33,343 basehttp 3568 11424 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:24:33,418 log 3568 11424 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:24:33,420 basehttp 3568 11424 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:24:33,422 basehttp 3568 15300 "GET /static/css/style.css HTTP/1.1" 200 30157
+INFO 2025-09-10 15:24:33,423 basehttp 3568 15224 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:24:33,504 basehttp 3568 15224 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:24:33,535 basehttp 3568 15224 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:24:36,749 basehttp 3568 15224 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:24:36,827 log 3568 15224 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:24:36,828 basehttp 3568 15224 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:24:36,830 basehttp 3568 15300 "GET /static/css/style.css HTTP/1.1" 200 30157
+INFO 2025-09-10 15:24:36,833 basehttp 3568 11424 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:24:36,920 basehttp 3568 11424 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:24:45,222 basehttp 3568 11424 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:24:45,291 log 3568 11424 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:24:45,293 basehttp 3568 11424 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:24:45,297 basehttp 3568 15300 "GET /static/css/style.css HTTP/1.1" 200 30157
+INFO 2025-09-10 15:24:45,298 basehttp 3568 15224 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:24:45,389 basehttp 3568 15224 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:25:04,447 basehttp 3568 15224 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:25:04,510 log 3568 15224 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:25:04,511 basehttp 3568 15224 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:25:04,514 basehttp 3568 15300 "GET /static/css/style.css HTTP/1.1" 200 29798
+INFO 2025-09-10 15:25:04,516 basehttp 3568 11424 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:25:04,593 basehttp 3568 11424 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:25:04,618 basehttp 3568 11424 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:25:07,901 basehttp 3568 11424 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:25:07,954 log 3568 11424 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:25:07,955 basehttp 3568 11424 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:25:07,969 basehttp 3568 11424 "GET /static/css/style.css HTTP/1.1" 200 29798
+INFO 2025-09-10 15:25:07,971 basehttp 3568 15300 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:25:08,063 basehttp 3568 15300 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:25:15,224 basehttp 3568 15300 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:25:15,294 log 3568 15300 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:25:15,295 basehttp 3568 15300 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:25:15,296 basehttp 3568 11424 "GET /static/css/style.css HTTP/1.1" 200 29591
+INFO 2025-09-10 15:25:15,300 basehttp 3568 15224 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:25:15,384 basehttp 3568 15224 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:25:15,408 basehttp 3568 15224 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:25:17,945 basehttp 3568 15224 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:25:18,019 log 3568 15224 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:25:18,020 basehttp 3568 15224 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:25:18,024 basehttp 3568 15224 "GET /static/css/style.css HTTP/1.1" 200 29591
+INFO 2025-09-10 15:25:18,026 basehttp 3568 11424 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:25:18,089 basehttp 3568 11424 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:41:45,601 basehttp 3568 11152 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:41:45,705 log 3568 11152 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:41:45,709 basehttp 3568 11152 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:41:45,711 basehttp 3568 18372 "GET /static/css/style.css HTTP/1.1" 200 29591
+INFO 2025-09-10 15:41:45,714 basehttp 3568 11940 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:41:45,838 basehttp 3568 11940 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:41:48,013 basehttp 3568 11940 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:41:48,092 log 3568 11940 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:41:48,093 basehttp 3568 11940 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:41:48,098 basehttp 3568 18372 "GET /static/css/style.css HTTP/1.1" 200 29591
+INFO 2025-09-10 15:41:48,100 basehttp 3568 11152 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:41:48,232 basehttp 3568 11152 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:43:24,653 basehttp 3568 11152 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:43:24,746 log 3568 11152 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:43:24,749 basehttp 3568 11152 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:43:24,750 basehttp 3568 18372 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 15:43:24,753 basehttp 3568 11940 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:43:24,880 basehttp 3568 11940 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:43:24,910 basehttp 3568 11940 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:43:41,980 basehttp 3568 11940 "GET /skills/ HTTP/1.1" 200 7692
+WARNING 2025-09-10 15:43:42,072 log 3568 11940 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:43:42,074 basehttp 3568 11940 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:43:42,077 basehttp 3568 18372 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 15:43:42,192 basehttp 3568 18372 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:44:11,915 basehttp 3568 18372 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:44:11,997 log 3568 18372 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:44:11,998 basehttp 3568 18372 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:44:12,028 basehttp 3568 18372 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 15:44:12,040 basehttp 3568 11940 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:44:12,187 basehttp 3568 11940 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:45:12,702 basehttp 3568 11940 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:45:12,789 log 3568 11940 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:45:12,790 basehttp 3568 11940 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:45:12,800 basehttp 3568 18372 "GET /static/css/style.css HTTP/1.1" 200 28169
+INFO 2025-09-10 15:45:12,808 basehttp 3568 11940 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:45:13,025 basehttp 3568 11940 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:45:13,054 basehttp 3568 11940 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:45:38,965 basehttp 3568 11940 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:45:39,046 log 3568 11940 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:45:39,048 basehttp 3568 11940 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:45:39,051 basehttp 3568 18372 "GET /static/css/style.css HTTP/1.1" 200 28169
+INFO 2025-09-10 15:45:39,061 basehttp 3568 11940 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:45:39,182 basehttp 3568 11940 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:45:39,217 basehttp 3568 11940 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:46:18,636 basehttp 3568 11940 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:46:18,749 log 3568 11940 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+INFO 2025-09-10 15:46:18,749 basehttp 3568 18372 "GET /static/css/style.css HTTP/1.1" 200 28170
+WARNING 2025-09-10 15:46:18,759 basehttp 3568 11940 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:46:18,824 basehttp 3568 18372 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:46:18,911 basehttp 3568 18372 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:46:18,948 basehttp 3568 18372 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:46:39,352 basehttp 3568 18372 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:46:39,459 log 3568 18372 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:46:39,460 basehttp 3568 18372 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:46:39,478 basehttp 3568 18372 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 15:46:39,560 basehttp 3568 18372 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:46:39,642 basehttp 3568 18372 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:46:39,692 basehttp 3568 18372 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:50:42,053 basehttp 3568 6760 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:50:42,154 log 3568 6760 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:50:42,155 basehttp 3568 6760 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:50:42,160 basehttp 3568 6760 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 15:50:42,175 basehttp 3568 8964 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:50:42,323 basehttp 3568 8964 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:53:41,477 basehttp 3568 8964 "GET / HTTP/1.1" 200 8997
+WARNING 2025-09-10 15:53:41,558 log 3568 8964 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:53:41,559 basehttp 3568 8964 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:53:41,569 basehttp 3568 8964 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 15:53:41,655 basehttp 3568 8964 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:53:41,711 basehttp 3568 8964 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:53:41,785 basehttp 3568 8964 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:55:06,169 basehttp 3568 8964 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:55:06,260 log 3568 8964 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:55:06,261 basehttp 3568 8964 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:55:06,269 basehttp 3568 8964 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 15:55:06,388 basehttp 3568 8964 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:55:06,450 basehttp 3568 8964 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:55:06,496 basehttp 3568 8964 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:57:25,706 basehttp 3568 8964 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:57:25,792 log 3568 8964 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:57:25,795 basehttp 3568 8964 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:57:25,805 basehttp 3568 8248 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 15:57:25,895 basehttp 3568 8248 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:57:25,975 basehttp 3568 8248 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:57:26,007 basehttp 3568 8248 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:57:47,068 basehttp 3568 8248 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:57:47,156 log 3568 8248 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:57:47,156 basehttp 3568 8248 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:57:47,166 basehttp 3568 8248 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 15:57:47,176 basehttp 3568 8964 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:57:47,294 basehttp 3568 8964 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:57:47,331 basehttp 3568 8964 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:58:00,260 basehttp 3568 8964 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:58:00,348 log 3568 8964 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:58:00,350 basehttp 3568 8964 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:58:00,362 basehttp 3568 8964 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 15:58:00,371 basehttp 3568 8248 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:58:00,596 basehttp 3568 8248 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:58:00,633 basehttp 3568 8248 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 15:59:02,876 basehttp 3568 8248 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 15:59:02,960 log 3568 8248 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:59:02,963 basehttp 3568 8248 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:59:02,982 basehttp 3568 8248 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 15:59:02,996 basehttp 3568 8964 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 15:59:03,110 basehttp 3568 8964 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:59:05,190 basehttp 3568 8964 "GET /about/ HTTP/1.1" 200 14036
+WARNING 2025-09-10 15:59:05,278 log 3568 8964 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:59:05,278 basehttp 3568 8964 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:59:05,298 basehttp 3568 8964 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 15:59:05,327 basehttp 3568 8964 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 15:59:05,432 basehttp 3568 8964 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:59:07,157 basehttp 3568 8964 "GET /contact/ HTTP/1.1" 200 11708
+WARNING 2025-09-10 15:59:07,251 log 3568 8964 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:59:07,254 basehttp 3568 8964 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:59:07,284 basehttp 3568 8964 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 15:59:07,366 basehttp 3568 8964 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:59:11,631 basehttp 3568 8964 "GET /impressum/ HTTP/1.1" 200 6419
+WARNING 2025-09-10 15:59:11,705 log 3568 8964 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:59:11,707 basehttp 3568 8964 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:59:11,720 basehttp 3568 8964 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 15:59:11,824 basehttp 3568 8964 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:59:14,410 basehttp 3568 8964 "GET /cookies/ HTTP/1.1" 200 4788
+WARNING 2025-09-10 15:59:14,491 log 3568 8964 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:59:14,492 basehttp 3568 8964 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:59:14,519 basehttp 3568 8964 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 15:59:14,635 basehttp 3568 8964 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 15:59:16,222 basehttp 3568 8964 "GET /privacy/ HTTP/1.1" 200 6127
+WARNING 2025-09-10 15:59:16,295 log 3568 8964 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 15:59:16,297 basehttp 3568 8964 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 15:59:16,317 basehttp 3568 8964 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 15:59:16,413 basehttp 3568 8964 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 16:01:35,985 basehttp 3568 8964 "GET / HTTP/1.1" 200 8978
+WARNING 2025-09-10 16:01:36,067 log 3568 8964 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 16:01:36,069 basehttp 3568 8964 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 16:01:36,079 basehttp 3568 8964 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 16:01:36,116 basehttp 3568 8964 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 16:01:36,232 basehttp 3568 8964 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 16:28:44,974 basehttp 3568 2112 "GET /privacy/ HTTP/1.1" 200 129255
+WARNING 2025-09-10 16:28:45,079 log 3568 2112 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 16:28:45,081 basehttp 3568 2112 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 16:28:45,082 basehttp 3568 6488 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 16:28:45,361 basehttp 3568 6488 "GET /static/js/main.js HTTP/1.1" 200 1086
+ERROR 2025-09-10 16:33:44,070 log 3568 6488 Internal Server Error: /privacy/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\site\main\views.py", line 391, in privacy
+    return render(request, 'main/privacy.html', { 'social_links': social_links })
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 299, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 299, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 228, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'title' appears more than once
+ERROR 2025-09-10 16:33:44,104 basehttp 3568 6488 "GET /privacy/ HTTP/1.1" 500 187239
+WARNING 2025-09-10 16:33:44,230 log 3568 6488 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 16:33:44,233 basehttp 3568 6488 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+WARNING 2025-09-10 16:33:44,516 log 3568 6488 Not Found: /favicon.ico
+WARNING 2025-09-10 16:33:44,517 basehttp 3568 6488 "GET /favicon.ico HTTP/1.1" 404 5432
+INFO 2025-09-10 16:35:24,924 basehttp 3568 6488 "GET /privacy/ HTTP/1.1" 200 12426
+WARNING 2025-09-10 16:35:24,979 log 3568 6488 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 16:35:24,982 basehttp 3568 6488 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 16:35:25,028 basehttp 3568 6488 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 16:35:25,247 basehttp 3568 6488 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 16:35:25,306 basehttp 3568 6488 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 16:35:51,222 basehttp 3568 6488 "GET /privacy/ HTTP/1.1" 200 129255
+WARNING 2025-09-10 16:35:51,307 log 3568 6488 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-10 16:35:51,307 basehttp 3568 6488 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 5543
+INFO 2025-09-10 16:35:51,307 basehttp 3568 1340 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 16:35:51,684 basehttp 3568 1340 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 16:35:51,736 basehttp 3568 1340 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 16:55:15,793 apps 4716 7668 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 16:55:16,894 apps 13384 16792 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 16:55:16,953 autoreload 13384 16792 Watching for file changes with StatReloader
+INFO 2025-09-10 16:56:48,150 autoreload 13384 16792 C:\Users\user\Documents\site\personal_site\settings.py changed, reloading.
+INFO 2025-09-10 16:56:49,191 apps 13304 17360 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 16:56:49,252 autoreload 13304 17360 Watching for file changes with StatReloader
+INFO 2025-09-10 16:56:51,000 autoreload 13304 17360 C:\Users\user\Documents\site\personal_site\settings.py changed, reloading.
+INFO 2025-09-10 16:56:52,182 apps 2260 12544 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 16:56:52,216 autoreload 2260 12544 Watching for file changes with StatReloader
+INFO 2025-09-10 16:57:00,335 apps 17440 1644 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 16:57:00,893 apps 18136 17672 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 16:57:00,924 autoreload 18136 17672 Watching for file changes with StatReloader
+INFO 2025-09-10 16:57:03,324 basehttp 18136 13632 "GET / HTTP/1.1" 200 8978
+INFO 2025-09-10 16:57:03,428 basehttp 18136 13632 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2025-09-10 16:57:03,490 basehttp 18136 15236 "GET /static/images/main_page.png HTTP/1.1" 200 321890
+INFO 2025-09-10 16:57:05,063 basehttp 18136 15236 "GET / HTTP/1.1" 200 8978
+INFO 2025-09-10 16:57:06,216 basehttp 18136 15236 "GET /about/ HTTP/1.1" 200 14036
+INFO 2025-09-10 16:57:06,296 basehttp 18136 15236 "GET /static/images/hike_hobby.jpg HTTP/1.1" 200 1229294
+INFO 2025-09-10 16:57:07,926 basehttp 18136 15236 "GET /skills/ HTTP/1.1" 200 7692
+INFO 2025-09-10 16:57:09,583 basehttp 18136 15236 "GET /contact/ HTTP/1.1" 200 11708
+INFO 2025-09-10 16:57:11,420 basehttp 18136 15236 "GET /privacy/ HTTP/1.1" 200 6127
+INFO 2025-09-10 17:11:59,339 basehttp 18136 16484 "GET / HTTP/1.1" 200 9017
+INFO 2025-09-10 17:11:59,512 basehttp 18136 16484 "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2025-09-10 17:27:23,978 basehttp 18136 15532 "GET / HTTP/1.1" 200 9017
+INFO 2025-09-10 17:27:24,045 basehttp 18136 15532 "GET /static/css/style.css HTTP/1.1" 200 28170
+WARNING 2025-09-10 17:27:24,117 basehttp 18136 15532 "GET /static/images/main_page.png HTTP/1.1" 404 1874
+INFO 2025-09-10 17:27:24,182 basehttp 18136 8004 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 17:27:24,202 basehttp 18136 8004 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 17:32:18,567 basehttp 18136 8004 "GET / HTTP/1.1" 200 9017
+INFO 2025-09-10 17:32:18,652 basehttp 18136 8004 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 17:32:18,657 basehttp 18136 2760 "GET /static/images/main_page.png HTTP/1.1" 200 673251
+INFO 2025-09-10 17:32:18,870 basehttp 18136 2760 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 17:32:18,898 basehttp 18136 2760 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 17:49:02,181 basehttp 18136 17860 "GET / HTTP/1.1" 200 9017
+INFO 2025-09-10 17:49:02,266 basehttp 18136 17860 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 17:49:02,364 basehttp 18136 17860 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 17:49:02,389 basehttp 18136 14432 "GET /static/images/main_page.png HTTP/1.1" 200 6989878
+INFO 2025-09-10 17:49:02,481 basehttp 18136 14432 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 17:57:12,341 basehttp 18136 5008 "GET / HTTP/1.1" 200 9017
+INFO 2025-09-10 17:57:12,424 basehttp 18136 5008 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 17:57:12,497 basehttp 18136 18820 "GET /static/images/main_page.png HTTP/1.1" 200 9249108
+INFO 2025-09-10 17:57:12,594 basehttp 18136 18820 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 17:57:12,753 basehttp 18136 18820 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 17:58:24,207 basehttp 18136 18820 "GET / HTTP/1.1" 200 9017
+INFO 2025-09-10 17:58:24,284 basehttp 18136 18820 "GET /static/css/style.css HTTP/1.1" 200 28170
+INFO 2025-09-10 17:58:24,339 basehttp 18136 5008 "GET /static/images/main_page.png HTTP/1.1" 200 5321832
+INFO 2025-09-10 17:58:24,431 basehttp 18136 5008 "GET /static/js/main.js HTTP/1.1" 200 1086
+INFO 2025-09-10 17:58:24,506 basehttp 18136 5008 "GET /static/other_files/logo.png HTTP/1.1" 200 626018
+INFO 2025-09-10 18:03:13,892 autoreload 18136 17672 C:\Users\user\Documents\site\personal_site\settings.py changed, reloading.
+INFO 2025-09-10 18:03:14,845 apps 20180 14440 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 18:03:14,873 autoreload 20180 14440 Watching for file changes with StatReloader
+INFO 2025-09-10 20:32:35,349 apps 19172 19888 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 20:32:35,727 apps 18548 18632 AXES: BEGIN version 6.3.0, blocking by 
+INFO 2025-09-10 20:32:35,751 autoreload 18548 18632 Watching for file changes with StatReloader
+INFO 2025-09-10 20:32:41,051 basehttp 18548 20404 "GET / HTTP/1.1" 301 0
+INFO 2025-09-10 20:32:41,087 basehttp 18548 16604 code 400, message Bad request version ('ô±Ýæ]èß\x04ZsBßeô')
+ERROR 2025-09-10 20:32:41,088 basehttp 18548 16604 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 20:32:41,090 basehttp 18548 12180 code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Sºº\x00\x00ÿ\x01\x00\x01\x00\x00\x17\x00\x00\x00\x12\x00\x00\x00#\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00\x1b\x00\x03\x02\x00\x02\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+ERROR 2025-09-10 20:32:41,091 basehttp 18548 12180 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 20:32:43,568 basehttp 18548 17608 code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+ERROR 2025-09-10 20:32:43,569 basehttp 18548 17608 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 20:32:43,569 basehttp 18548 11476 code 400, message Bad request version ('\x1a\x10Ê')
+ERROR 2025-09-10 20:32:43,569 basehttp 18548 11476 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 20:32:43,570 basehttp 18548 19756 code 400, message Bad request version ("\x8b'\x7f%CY¼ßOv\x07\x11\x92\x16bÞ¥\x14Ü\x8eQa1/¸§L\x18É\x98\x8e\x03\x00")
+ERROR 2025-09-10 20:32:43,571 basehttp 18548 19756 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 20:32:43,571 basehttp 18548 18712 code 400, message Bad request version ('ö\x8aÔ$Å³ßã\x07·ãáòð\x9d)DèÞô\x9294l\x02B\x8c}ÿÖ(\x01%trH<i_SÛ°cU°ýÕço·S÷\x9cüöO\x80ô¼z=\x14K¸"©Ö\x00Ùÿ\x81ð`¤âIb')
+ERROR 2025-09-10 20:32:43,571 basehttp 18548 18712 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 20:32:44,570 basehttp 18548 8860 code 400, message Bad request version ('*¹xÒ\x8awK}')
+INFO 2025-09-10 20:32:44,570 basehttp 18548 1452 code 400, message Bad request version ('h¿º][BFN&\x98ªÝìg/í¿\x8bÐü}¹»ÁÜí;\x0eµ\x0fù\x92\x00')
+ERROR 2025-09-10 20:32:44,570 basehttp 18548 8860 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2025-09-10 20:32:44,571 basehttp 18548 1452 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2025-09-10 20:32:44,572 basehttp 18548 868 code 400, message Bad request version ('nüw')
+INFO 2025-09-10 20:32:44,573 basehttp 18548 18804 code 400, message Bad request version ('íæÂ¿Ý#èbö4\x00Å#1Í\x9b\x13')
+ERROR 2025-09-10 20:32:44,573 basehttp 18548 868 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2025-09-10 20:32:44,573 basehttp 18548 18804 You're accessing the development server over HTTPS, but it only supports HTTP.
