@@ -266,3 +266,9 @@ AXES_COOLOFF_TIME = timedelta(hours=1)
 AXES_LOCKOUT_PARAMETERS = []
 AXES_RESET_ON_SUCCESS = True
 AXES_LOCKOUT_CALLABLE = None
+
+
+AUTHENTICATION_BACKENDS = [
+    "axes.backends.AxesStandaloneBackend",   # ✅ new name since v5
+    "django.contrib.auth.backends.ModelBackend",
+]
