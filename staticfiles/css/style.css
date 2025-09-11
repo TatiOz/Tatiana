@@ -151,30 +151,245 @@ a:hover {
 }
 
 
+/* ===== HOME PAGE SPECIAL LAYOUT ===== */
+
+/* Герой-секция (главный экран) */
+.hero-section {
+    padding-top: 6rem;
+    /* чуть больше отступ сверху под navbar */
+    padding-bottom: 6rem;
+    background: var(--color-bg, #fff);
+}
+
+/* Контент внутри героя */
+.hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: var(--space-md);
+    padding-right: var(--space-md);
+}
+
+/* Профиль */
+.profile-section {
+    background: #ffffff;
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.profile-section.hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.profile-image {
+    max-width: 220px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: var(--shadow-sm);
+}
+
+/* Имя и титулы */
+.profile-name {
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.profile-title {
+    font-size: 1.1rem;
+    color: var(--gray-700);
+}
+
+.profile-description {
+    font-size: 0.95rem;
+    color: var(--gray-600);
+}
+
+/* Кey Skills */
+.compact-section {
+    margin-top: 2rem;
+}
+
+.compact-title {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.compact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+.compact-card {
+    background: #fff;
+    border-radius: var(--radius-md);
+    padding: 1rem;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.compact-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+}
+
+.compact-card-title {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.compact-card-text {
+    font-size: 0.9rem;
+    color: var(--gray-600);
+}
+
+/* Call to action */
+.hero-section .btn {
+    min-width: 200px;
+}
+
+.hero-content>.row>div>.profile-section,
+.hero-content>.row>div>.compact-section,
+.hero-content>.row>div>.text-center {
+    margin-bottom: 2rem;
+    /* расстояние между блоками */
+}
+
+
+
 /* ===== NAVIGATION ===== */
-/* Navigation */
 .navbar {
-    background-color: var(--white) !important;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 1rem 0;
+    background: #ffffff;
+    backdrop-filter: blur(20px);
+    box-shadow: var(--shadow-lg);
+    padding: var(--space-sm) 0;
+    height: 80px;
+    z-index: 1050;
+    /* navbar всегда выше */
+    border-bottom: 1px solid var(--gray-200);
+}
+
+/* Mobile navbar button */
+.navbar .navbar-toggler {
+    border: 1px solid var(--gray-300);
+    padding: 0.5rem 0.75rem;
+    border-radius: var(--radius-md);
+}
+
+/* Hamburger icon */
+.navbar .navbar-toggler-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(31,41,55,0.95)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-size: 100% 100%;
+}
+
+/* ===== Mobile fullscreen menu under navbar ===== */
+@media (max-width: 991.98px) {
+    .navbar .navbar-collapse {
+        position: fixed;
+        top: 60px;
+        /* высота navbar */
+        left: 0;
+        right: 0;
+        height: calc(100vh - 80px);
+        /* всё окно минус navbar */
+        background: #ffffff;
+        padding: 2rem 1rem;
+        z-index: 1040;
+        /* ниже navbar */
+        overflow-y: auto;
+
+        transform: translateY(-100%);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .navbar .navbar-collapse.show {
+        transform: translateY(0);
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .navbar .nav-link {
+        text-align: center;
+        font-size: 1.2rem;
+        width: 100%;
+    }
+}
+
+/* Branding */
+.navbar.navbar-light .navbar-brand {
+    color: var(--gray-900) !important;
 }
 
 .navbar-brand {
-    font-weight: bold;
-    font-size: 1.5rem;
+    font-family: var(--font-secondary);
+    font-weight: 700;
     color: var(--primary-color) !important;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    transition: color 0.2s ease;
 }
 
-.nav-link {
+.navbar-brand:hover {
+    color: var(--primary-dark) !important;
+}
+
+/* Links */
+.navbar .nav-link {
     color: var(--gray-700) !important;
     font-weight: 500;
-    margin: 0 0.5rem;
-    transition: color 0.3s ease;
+    margin: 0 var(--space-xs);
+    transition: all 0.2s ease;
+    position: relative;
+    padding: var(--space-xs) var(--space-sm) !important;
+    border-radius: var(--radius-md);
 }
 
-.nav-link:hover {
+.navbar .nav-link:hover {
     color: var(--primary-color) !important;
+    background-color: var(--gray-100);
 }
+
+.navbar .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: var(--primary-color);
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.navbar .nav-link:hover::after {
+    width: 80%;
+}
+
+/* Убираем анимацию Bootstrap collapse */
+.navbar-collapse.collapsing {
+    height: auto !important;
+    overflow: visible !important;
+    transition: none !important;
+}
+
+.navbar-collapse.show {
+    height: auto !important;
+    overflow: visible !important;
+    transition: none !important;
+}
+
+
+
 
 
 /* ===== HERO SECTION ===== */
@@ -542,8 +757,8 @@ a:hover {
 .skill-item {
     font-size: 0.9rem;
     color: var(--gray-600);
-    margin-bottom: var(--space-xs);
-    padding: var(--space-xs) 0;
+    margin-bottom: 0.25rem;
+    padding: 0.1rem 0;
     position: relative;
     padding-left: var(--space-md);
 }
